@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "outDir": "lib"
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,419 @@
+{
+  "geocoded_waypoints" : [
+     {
+        "geocoder_status" : "OK",
+        "place_id" : "ChIJN5Dj22101kgRYiWHAIToah0",
+        "types" : [ "street_address" ]
+     },
+     {
+        "geocoder_status" : "OK",
+        "place_id" : "ChIJISUY2zNe1kgRe1R1auizzrQ",
+        "types" : [ "street_address" ]
+     }
+  ],
+  "routes" : [
+     {
+        "bounds" : {
+           "northeast" : {
+              "lat" : 64.14733369999999,
+              "lng" : -21.0039373
+           },
+           "southwest" : {
+              "lat" : 63.9343503,
+              "lng" : -21.79177
+           }
+        },
+        "copyrights" : "Map data ©2019 Google",
+        "legs" : [
+           {
+              "distance" : {
+                 "text" : "54.6 km",
+                 "value" : 54622
+              },
+              "duration" : {
+                 "text" : "47 mins",
+                 "value" : 2842
+              },
+              "end_address" : "Laxabakki 13, 800 Selfoss, Iceland",
+              "end_location" : {
+                 "lat" : 63.9359314,
+                 "lng" : -21.0211805
+              },
+              "start_address" : "Mosarimi 43, 112 Reykjavík, Iceland",
+              "start_location" : {
+                 "lat" : 64.1462404,
+                 "lng" : -21.79177
+              },
+              "steps" : [
+                 {
+                    "distance" : {
+                       "text" : "73 m",
+                       "value" : 73
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 13
+                    },
+                    "end_location" : {
+                       "lat" : 64.14685179999999,
+                       "lng" : -21.7912707
+                    },
+                    "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e toward \u003cb\u003eMosarimi\u003c/b\u003e",
+                    "polyline" : {
+                       "points" : "_qofKpe_dCM[KO[Q]Ie@["
+                    },
+                    "start_location" : {
+                       "lat" : 64.1462404,
+                       "lng" : -21.79177
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.2 km",
+                       "value" : 190
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 38
+                    },
+                    "end_location" : {
+                       "lat" : 64.1456477,
+                       "lng" : -21.7885681
+                    },
+                    "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMosarimi\u003c/b\u003e",
+                    "maneuver" : "turn-right",
+                    "polyline" : {
+                       "points" : "ytofKlb_dCHs@Jo@Pk@J_@HWHWDIV_@t@sBrA}C"
+                    },
+                    "start_location" : {
+                       "lat" : 64.14685179999999,
+                       "lng" : -21.7912707
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.3 km",
+                       "value" : 255
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 60
+                    },
+                    "end_location" : {
+                       "lat" : 64.14733369999999,
+                       "lng" : -21.7851702
+                    },
+                    "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLangirimi\u003c/b\u003e",
+                    "maneuver" : "turn-left",
+                    "polyline" : {
+                       "points" : "imofKpq~cC]qAc@sAKSMMOGUIOOMQk@_B}A}EUw@I_@EU"
+                    },
+                    "start_location" : {
+                       "lat" : 64.1456477,
+                       "lng" : -21.7885681
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.6 km",
+                       "value" : 643
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 54
+                    },
+                    "end_location" : {
+                       "lat" : 64.14481670000001,
+                       "lng" : -21.7745284
+                    },
+                    "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eBorgavegur\u003c/b\u003e",
+                    "maneuver" : "roundabout-right",
+                    "polyline" : {
+                       "points" : "ywofKh|}cC?A@??A@A?A@??A@A?A?A@A?C?A@A?A?A?C?A?A@A?C?A?A?C?A?AAC?A?A?A?CAA?AFW?EPYf@k@`BaB\\_@p@}@V_@Xg@^}@V}@VoA\\yCLcCBYBg@FsE`@qMVgM"
+                    },
+                    "start_location" : {
+                       "lat" : 64.14733369999999,
+                       "lng" : -21.7851702
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1.3 km",
+                       "value" : 1291
+                    },
+                    "duration" : {
+                       "text" : "2 mins",
+                       "value" : 105
+                    },
+                    "end_location" : {
+                       "lat" : 64.134225,
+                       "lng" : -21.7656883
+                    },
+                    "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eVikurvegur\u003c/b\u003e",
+                    "maneuver" : "turn-right",
+                    "polyline" : {
+                       "points" : "chofKxy{cCTHNDRFNDRDJBVDJ@V@X@H?b@?B?\\Eb@GD?\\Ib@Kb@KFAXMb@Qb@Q`@Qd@_@j@c@pCyAjBy@z@k@r@k@h@o@xBgClAeBh@_AzAwBj@q@v@gApB_DpAyBvAgCxB_ExAoBvAeBBC?BBJDHDDDBLBBCBEFG"
+                    },
+                    "start_location" : {
+                       "lat" : 64.14481670000001,
+                       "lng" : -21.7745284
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.6 km",
+                       "value" : 568
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 42
+                    },
+                    "end_location" : {
+                       "lat" : 64.1298094,
+                       "lng" : -21.7701709
+                    },
+                    "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto the \u003cb\u003eReykjavik\u003c/b\u003e ramp",
+                    "polyline" : {
+                       "points" : "{emfKpbzcCH`@P^RDlB?hAAl@@j@Pj@Z\\`@h@z@l@dAj@x@\\j@JJNBN@JALAJ?L@LHHHJRHPl@pBnBbHV^"
+                    },
+                    "start_location" : {
+                       "lat" : 64.134225,
+                       "lng" : -21.7656883
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1.0 km",
+                       "value" : 989
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 44
+                    },
+                    "end_location" : {
+                       "lat" : 64.12489359999999,
+                       "lng" : -21.7868865
+                    },
+                    "html_instructions" : "Merge onto \u003cb\u003eVesturlandsvegur\u003c/b\u003e/\u003cb\u003eÞjóðvegur 1\u003c/b\u003e",
+                    "maneuver" : "merge",
+                    "polyline" : {
+                       "points" : "ijlfKp~zcCbArDhErOpD~M~@jDLf@HRx@lCd@vBrAvGn@zDf@xCd@nDb@vD\\hD^`ETrCTbD"
+                    },
+                    "start_location" : {
+                       "lat" : 64.1298094,
+                       "lng" : -21.7701709
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.4 km",
+                       "value" : 440
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 29
+                    },
+                    "end_location" : {
+                       "lat" : 64.1255561,
+                       "lng" : -21.7875731
+                    },
+                    "html_instructions" : "Take the exit toward \u003cb\u003eSuðurlandsvegur\u003c/b\u003e/\u003cb\u003eÞjóðvegur 1\u003c/b\u003e",
+                    "maneuver" : "ramp-right",
+                    "polyline" : {
+                       "points" : "qkkfK`g~cCCnA\\bIFdB?pAAx@Gp@Kj@Qj@YXYJ[CWSYg@Om@M_AIaAEgA?qADyAJgALy@NgA"
+                    },
+                    "start_location" : {
+                       "lat" : 64.12489359999999,
+                       "lng" : -21.7868865
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "2.4 km",
+                       "value" : 2450
+                    },
+                    "duration" : {
+                       "text" : "2 mins",
+                       "value" : 127
+                    },
+                    "end_location" : {
+                       "lat" : 64.1049848,
+                       "lng" : -21.7746502
+                    },
+                    "html_instructions" : "Continue onto \u003cb\u003eSuðurlandsvegur\u003c/b\u003e/\u003cb\u003eÞjóðvegur 1\u003c/b\u003e",
+                    "polyline" : {
+                       "points" : "wokfKhk~cCL_@Pe@LYLYJUx@uAx@wAh@{@p@s@h@i@r@m@|@s@p@]p@UTGTERGREj@K~@S@?dA[xAs@v@c@z@o@l@g@dCcClCkCrAcAfAu@lBgAlAe@p@Wp@Sr@Mn@Ot@Mr@IpAMz@Cz@?D?B?dABvAHj@Fr@LrAXbB`@`Dp@b@Dl@@n@?bAI~@M~@Wp@U|@e@jAu@hA{@tAaAvAkA|BeBf@a@d@_@d@a@`@g@\\e@^k@j@eAHSDGVo@To@Rs@XiAVoATkAZcA"
+                    },
+                    "start_location" : {
+                       "lat" : 64.1255561,
+                       "lng" : -21.7875731
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.8 km",
+                       "value" : 842
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 61
+                    },
+                    "end_location" : {
+                       "lat" : 64.1018243,
+                       "lng" : -21.7597049
+                    },
+                    "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eÞjóðvegur 1\u003c/b\u003e",
+                    "maneuver" : "roundabout-right",
+                    "polyline" : {
+                       "points" : "cogfKpz{cCFPDFDDFBD?FAFEDGBG@E@E@G@G@E@G?I?G@GAG?G?GAGAG?GAGCECIZsFJgBPwBNeBReBd@{DjDwVjDkVTcBV}B\\iDTaB"
+                    },
+                    "start_location" : {
+                       "lat" : 64.1049848,
+                       "lng" : -21.7746502
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "33.3 km",
+                       "value" : 33338
+                    },
+                    "duration" : {
+                       "text" : "24 mins",
+                       "value" : 1454
+                    },
+                    "end_location" : {
+                       "lat" : 63.995388,
+                       "lng" : -21.1932438
+                    },
+                    "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eSuðurlandsvegur\u003c/b\u003e/\u003cb\u003eÞjóðvegur 1\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Þjóðvegur 1\u003c/div\u003e",
+                    "maneuver" : "roundabout-right",
+                    "polyline" : {
+                       "points" : "k{ffKb}xcCFLLFJ@FEHIDQDW@Y?WAUCObAiJNmALiAhAyHpA_JnAoIzAkJlAkHlBgKvD}PbF_TXkAzCoMvAwGv@uD`AqFT}ATeBRcBRmBR{BPgCX_FPuEHuDDkE\\aVF{GDcEFqCPiGXgHTmFZyF\\}EXsE^qEXgDRuB`AeJ`AoH|@eGxA_JtAgHxAuHz@_FhAiGzAyH|CkPfRsbAjCiNdI_c@BIzF_\\zBqMf@}Ct@iElAqH`B}JzByNnBqM~BsORoA`@gCrCgRnBeMfBiLb@qCzBwNvAoJn@{D|@_Hp@gFr@mGh@kFf@qFb@aGb@eGf@aJXcHNyD\\sLPaGTuIBw@PwFXsI^{If@wKn@gMh@uJj@{IZyEd@kGp@uIVwCl@aHb@{E`@gEd@_F`BsPnFoj@hAiLfB{QbBqQLiAtAmNjFcj@hDa^jEyc@nCgZVuCx@kKz@aLf@_Ip@qKd@cJf@iK`@cK\\wH?OV}HZyKFaCXoLB}@\\uSJwNJ_L@yH@sF@{GCoNGsMCiHCsKBeEJ{FLoFZyGFwAJcBPmCTgCPmBPeBPoABSZ{B`@cCn@cDvAiHxAqHXoAr@{CvCiLvAuFlAwEzAcGbCuJfC{JbCuJbDiMpB}HrBgItBkI~BcJ~BkJlBsHxBsIvA{FrC{KxCeLfDiMx@sCv@kCt@uB|@iC~@}BhAkClAgClA}BpGqLxKmSdBeD`B_Dn@sAn@wAl@yAJUVg@`BoE`A}Ct@cCl@_Cr@oCz@uDz@aEf@cCb@gC^}B^aC^gC\\oCZcCXiCZwCXaD^sE\\aFh@iHj@wHVyCZiD^}C^wCb@wCj@cDr@yD|@}DbAwDjA}Dx@cCRk@rA{Df@oAx@kBjA{BnA{BlB{C|AqBVo@tCeE`DkEvHyKnAeBxA}BZo@`A}A|@wAvAcDz@eB|@_Dx@cCr@iCh@mCj@{Ct@cFj@_FToC^qEXsFLmEJeEBeEAqE?k@@oDAe@AgCEiFGmDEgDEwLCgGAsG?eJD_HRuJLqGTyLV_MBaBJcEX{S@sB@sC@uA?eBAiJEyFE}FQiP_@g[?{@C{SLe[?uWQsOYoMe@aOeB_YmC}e@sFm`AwC_k@]mMIaK?mLFcKHiDPkHZuHPkDv@kLl@kHj@aGlDcWdGca@hEiXvFg^|DyWtCaSrAiL`A{KdAoMtBySzAkLtFe^x@gGfAsJl@iH^qFPkFDcEAwGImEMmDe@iFy@eFe@cCk@{Bm@yAy@yBOW_@q@q@_AA?c@i@g@e@}@g@o@[q@Q}@McAAi@Ai@Ea@Cc@Ii@Ui@g@i@m@]q@Uo@Us@UeAOqAMoAEmA?{ADkANeBViBf@kBt@yA|@w@bAk@l@Yh@i@f@aA`@qAd@_CV}BXsCTcBXuAZwA\\w@b@u@`As@r@_@bA]hBk@t@Mn@Up@g@l@k@~CiDtD{FjAaBhBsBx@o@x@a@t@Kt@Fl@Fl@Rj@b@l@|@n@jAh@vAtD~Of@~BpDbOb@vAn@|Ad@~@j@x@b@\\h@T`@Hf@Cf@Sl@i@`@o@`@{@`@_B\\eBTsBPoBL{CHyCH{DDoB@e@RqJPiFXwFX{F^aGd@iGf@}FdAkJb@oDd@cDn@qEZ}BvKou@jDqU"
+                    },
+                    "start_location" : {
+                       "lat" : 64.1018243,
+                       "lng" : -21.7597049
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "12.3 km",
+                       "value" : 12283
+                    },
+                    "duration" : {
+                       "text" : "10 mins",
+                       "value" : 620
+                    },
+                    "end_location" : {
+                       "lat" : 63.93764859999999,
+                       "lng" : -21.0039111
+                    },
+                    "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eSuðurlandsvegur\u003c/b\u003e",
+                    "maneuver" : "roundabout-right",
+                    "polyline" : {
+                       "points" : "ebreKvhj`CFHFHJBJKFKDKBOBO?S?QAQCSISfLio@rAcHx@yD`Mgo@lAeGxDcStBgKVoAz@kEzCwOtB{JzBkJ|A{EvA}CtAeCFIHQJQJQJOJQJQJQJQJOJQJOJOLQJOJQJOJOJQJOJOLMJOJOJMLOJOJMJOLONSJOLMJOJOJMLOJOJMJOLOJMJOJOLMJOJOJMLOJOJMJOLOJMJOJOLMJOJOJOLOJOJMJOJOLOJOJOJOJOLMJOJOJOJOLOJOJMJOJOLOJOJOJOLOJMJOJQJOJQJOJOJQJOJQJOLOJQJOJQ~A_DdBwCxB}EpEiKlAgCBGDGBEBGBGBGBGBGDEBGBGBGBGBGBEDGBGBGBGFMBGBGBGBGBGBGBGBGBGDGBGBGBGBGBEBGBGBGBGDGBGBGBGBGBGBGBGBGBGBGDGBGBEBEDGBEBGBEDGBEBGBEDEBGBEBGDEBGBEBGDGBGBGBGBGBGBGBGBGBGBGDEBGBGBGBGBGBEDGBGBGBEBGDGBEBGBGBGBE@A@CJSHQJSHSHUJSHSHSHUJQJSHQJQHSJSHUHSHUHSJUHQJMLKJKJMLKJMLKJELGLGLGJELGLGLEJGLGLGLEJGLELELELGJELELELELGJELELELE~@]|G}BjGmD^[Xa@Vq@p@aBrAaDt@mBnBuFlAaDbAiBjAgCrAyClAyDjAiDtAiDrA{DjAiDlAiD`AuD~@mDp@eDnAoHv@kF~@}IZmEV}EPcELiEJyFRwWHiUBcHDwI?eADiIDgFJqL?kJBc`@?yH?iBA_B@gPBkQ@qAJkKBgDFsFJyFH{GXuJF}DLkE^qQBw@hAsZn@_NBm@Dm@Bm@Bm@Dm@Bm@Dm@Dm@Bm@Dm@Bm@Dm@Bm@Dm@Dm@Bm@Dm@Bm@Dm@Bm@BUxAwUnBaWlBiVlCsWdAaJnA{LxBwPxEk_@jEu[\\cCRyA\\}Bv@kF|B_PPeAP}@TgAb@cB`@sAf@wAZi@T_@V_@?B@@@@?@@?@@@??@@?@?@?@?@?@A@??A@??A@?@A?A@A?A@A?C@A?A@C?A?C@A?C?C?A@C?C?A?C?C?AAC?C?A?C?AAC?AAC?ADIh@}@rBmCbC{CbCuC@??A@A@??A@A@A@A?A@?@A?A@A@A@A?A@?@A?A@A@A@A@A@A?A@A@A?A@?@A@A?A@A@A@A@A@A?A@A@??A@A@A@A?A@A@??A@A@A?A@A@?@A?A@A@A?A@A@?@A?A@A@A@A@A?A@A@??A@A@A@A?A@?@A?A@A@A?A@A@?@A?A@A@A?A@?@A@A?A@A@A?A@?@A@A?ABC@A@C@A@A@CBA@A@C@A@A@C@A@ABC@A@A@A@C@A@A@C@ABA@C@A@A@C@A@A@CBA@A@C@A@AFGFGFIDGFGFGFGFGDGFGFGFGFIFGDGFGJKDGDEDGDEDGDGDEFGDGDEDGDGDGDGDGDGDGDIDGBIDIDGDIBIDIDKBIDIDIBKDKBIBKDIBKDKBIDKBIDKBKDIBKDIBKDKBIBKDIDKBGDIDIBIDIDIDIBGDIDGDIDGDIDGBGDGDGDGDGDGDGDGDGDGFEDEDEDEDEFEDCDCDCFCDCDCFCDAFCDCDAFADAD?FADAFAD?F?D?TAl@Dl@JnB`@b@B^IVIDC\\QhDgC`@W`@YfAq@"
+                    },
+                    "start_location" : {
+                       "lat" : 63.995388,
+                       "lng" : -21.1932438
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.5 km",
+                       "value" : 526
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 56
+                    },
+                    "end_location" : {
+                       "lat" : 63.9343884,
+                       "lng" : -21.0114864
+                    },
+                    "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eEyravegur\u003c/b\u003e",
+                    "maneuver" : "roundabout-right",
+                    "polyline" : {
+                       "points" : "iyfeKlie_C@D?B@B@B?B@@@B@@@B@@@@@@@?@@@?@?@?@?@?@A@?@A@A@A@A\\nAXhAfBbH`@`BlAfDh@|ApBnF`BfFnAlE"
+                    },
+                    "start_location" : {
+                       "lat" : 63.93764859999999,
+                       "lng" : -21.0039111
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.6 km",
+                       "value" : 551
+                    },
+                    "duration" : {
+                       "text" : "2 mins",
+                       "value" : 95
+                    },
+                    "end_location" : {
+                       "lat" : 63.9343503,
+                       "lng" : -21.0201052
+                    },
+                    "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eFossvegur\u003c/b\u003e",
+                    "maneuver" : "roundabout-right",
+                    "polyline" : {
+                       "points" : "}dfeKxxf_C?@A@?B?@?@AB?@?B?@?@?B?@?B?@?B?@?B@@?@?B?@@@?B?@@@?@@@?@@@?@@@e@zAe@vAGVUl@qAdEAB]dA_ApCKr@Cd@A\\?TDh@BXDTH\\FR^nA\\jAz@xCl@nBj@rBv@zC"
+                    },
+                    "start_location" : {
+                       "lat" : 63.9343884,
+                       "lng" : -21.0114864
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0.2 km",
+                       "value" : 183
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 44
+                    },
+                    "end_location" : {
+                       "lat" : 63.9359314,
+                       "lng" : -21.0211805
+                    },
+                    "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLaxabakki\u003c/b\u003e",
+                    "maneuver" : "turn-right",
+                    "polyline" : {
+                       "points" : "udfeKtnh_C{HtE"
+                    },
+                    "start_location" : {
+                       "lat" : 63.9343503,
+                       "lng" : -21.0201052
+                    },
+                    "travel_mode" : "DRIVING"
+                 }
+              ],
+              "traffic_speed_entry" : [],
+              "via_waypoint" : []
+           }
+        ],
+        "overview_polyline" : {
+           "points" : "_qofKpe_dCYk@y@[e@[Hs@\\{Ad@yAlAsCrA}C]qAo@gB]Ue@Yy@qBcCkIBEDOBQAUVcAxEkFhBcEt@iFP}CdAuc@lCn@jDIpFgBpAcA|FsCnBwAbDwD~FoIrIiNrEoHzAiBN^ZAPXd@d@vDAxARhA|@vA`CdBtBt@Ap@h@~DfMvRts@pE|WvBvTv@|SUhFk@dAu@Fq@{@]mBIuHv@iFx@oBnE}GlEiDpBk@`Ce@~CoArBsAtK{JtH{DjE_A|F[fDLvGpAdEv@|A@bCWpBm@hHyEbHsFdC{CrAqCzA}Fp@oCLXZFR[J}@K}@t@}MtF_c@vFwb@TaBFLXH\\y@CwAjD{XjIgi@dHe]|FkVlJoc@rAuKpAyTt@_k@x@g[hBy[nCuY~BuPnDgSzHya@ve@igCbLyo@fSqpApUm|AvDs]hCmc@dDedAlDqp@jCs]|SoyBp]grDnE_o@lCil@z@iZfA{r@Pif@Sas@NaMh@iOz@qMx@wHdEmU~Hg]dKga@j_@}yArM_h@rLoc@|FiOfYei@fHqNrDgJxEqPbEcS|BwOjBgQrCw_@rByR`EsT|EePzBkGdCgFrHyL~Tq[tFcJrCiGvBcH|AwG`B_K`AoJx@eMZkX[ak@?ad@nAao@j@u`@@yT}@i|@HsjAk@c^e@aOeB_YaKkgBuDmy@IoXPmPl@aRhAwQxAmPrLgy@tWmdBpIo|@pIqk@`C{RlA{OVoLKeNs@wK_BiJyAuEiAqCqAqBkCwBaBm@aCOyCUsA}@gA_BqA{FS}CDgDf@oE|AeExEgDhAsC|@}FdBeL`AmBtBsArGmB~AsA~CiDtD{FtDuErBqAjBCzAZxA`BxAbDrLzf@tA|CnAvAjA^nAWnAyAbA{Cr@yE^kGZkNxAoa@dAkOlBiRtCcTbQalANRVGLWFeAEe@|K}o@|SkfAbKgh@pGs[xEgQ~D_In@eA`BiC`BaCjE{FlKoNfEyF~AeCnG}KpMsYdAcChCsFhCoFrBqEvA}Ch@sAn@w@hBqAjBy@zOuFjHiEp@sAjHgRpHmPbIiUzGwT`CuMvBiQrAyXl@__APo]N{bAB}h@XyZv@ia@zBiu@pAaXh@oJdFuu@zF}n@tC}W|P}qAfFc^|AoHzBuFZWHDRSDq@CWfHqJfCyCJKHMV[l@u@rBkCnEcFzAoCnAoDpAeD|AeChBiAt@KpAB|Cl@bAEdFgDlC}AJZ^A`E~OjI|UjA~EBl@FN{GzSQlCXvB`ChIxAbFv@zC{HtE"
+        },
+        "summary" : "Þjóðvegur 1",
+        "warnings" : [],
+        "waypoint_order" : []
+     }
+  ],
+  "status" : "OK"
+}
