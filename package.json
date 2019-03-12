@@ -1,27 +1,57 @@
 {
-  "name": "evrange",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ev",
-    "range",
-    "consumption",
-    "route"
-  ],
-  "author": "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
-  "license": "MIT",
+  "name": "evrange-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "@mapbox/polyline": "1.0.0",
+    "@nivo/line": "0.52.1",
+    "grommet": "2.5.5",
     "mobx": "5.9.0",
-    "mobx-state-tree": "3.11.0"
+    "mobx-react": "5.4.3",
+    "mobx-state-tree": "3.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "styled-components": "4.1.3",
+    "typescript": "3.3.3333"
   },
   "devDependencies": {
-    "@types/node": "11.11.0"
-  }
+    "@types/jest": "24.0.11",
+    "@types/node": "11.11.1",
+    "@types/react": "16.8.7",
+    "@types/react-dom": "16.8.2",
+    "husky": "1.3.1",
+    "lint-staged": "8.1.5",
+    "mapkit-typescript": "5.13.3",
+    "prettier": "1.16.4",
+    "tslint": "5.13.1",
+    "tslint-config-prettier": "1.18.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

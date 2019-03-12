@@ -1,13 +1,13 @@
 import { types } from 'mobx-state-tree';
+import { batteryDischargeConsumption } from '../math/batteryDischargeConsumption';
 import { densityOfHumidAir } from '../math/densityOfHumidAir';
+import { heaterConsumption } from '../math/heaterConsumption';
+import { inclineConsumption } from '../math/inclineConsumption';
+import { inverterConsumption } from '../math/inverterConsumption';
+import { motorConsumption } from '../math/motorConsumption';
+import { motorEfficiency } from '../math/motorEfficiency';
 import { rollingResistanceConsumption } from '../math/rollingResistanceConsumption';
 import { windDragConsumption } from '../math/windDragConsumption';
-import { motorEfficiency } from '../math/motorEfficiency';
-import { motorConsumption } from '../math/motorConsumption';
-import { inverterConsumption } from '../math/inverterConsumption';
-import { batteryDischargeConsumption } from '../math/batteryDischargeConsumption';
-import { inclineConsumption } from '../math/inclineConsumption';
-import { heaterConsumption } from '../math/heaterConsumption';
 
 export const Consumption = types.model('Consumption', {
   // driving parameters
@@ -36,6 +36,9 @@ export const Consumption = types.model('Consumption', {
   motorEfficiencyAtMax: 0.96,
   motorEfficiencyAtMin: 0.85,
   speedInKmPerHourAtMaxMotorEfficiency: 90,
+
+  // unused
+  distance: 0,
 })
 .views((self) => ({
   get speedInMsec() {
@@ -72,7 +75,7 @@ export const Consumption = types.model('Consumption', {
   get heaterConsumption() {
     return heaterConsumption(self.heaterAcPower, (self as any).speedInMsec);
   },
-  get totalConsumption() {
+  get subtotalConsumption() {
     return (
       (self as any).rollingResistanceConsumption +
       (self as any).windDragConsumption +
@@ -83,4 +86,7 @@ export const Consumption = types.model('Consumption', {
       (self as any).heaterConsumption
     );
   },
+  get totalConsumption() {
+    return (self as any).subtotalConsumption * self.distance / 1000;
+  }
 }));
