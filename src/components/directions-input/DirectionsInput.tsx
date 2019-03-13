@@ -40,25 +40,27 @@ export const DirectionsInput = ({ onSubmit }: DirectionsInput) => {
             placeholder="Destination address or coords"
           />
           <FormField label="When" name="destination">
-            <DateTimePicker
-              value={selectedDate}
-              onChange={handleDateChange}
-              disablePast
-              ampm={false}
-              InputProps={{
-                className: 'mui-datepicker',
-              }}
-              labelFunc={x => {
-                if (x < new Date(Date.now() + 60000)) {
-                  return 'Now';
-                }
-                if (differenceInDays(x, Date.now()) < 2) {
-                  const res = formatRelative(x, Date.now(), { locale: enGB });
-                  return res.substr(0, 1).toLocaleUpperCase() + res.substr(1);
-                }
-                return format(x, 'PPpp', { locale: enGB });
-              }}
-            />
+            <Box>
+              <DateTimePicker
+                value={selectedDate}
+                onChange={handleDateChange}
+                disablePast
+                ampm={false}
+                InputProps={{
+                  className: 'mui-datepicker',
+                }}
+                labelFunc={x => {
+                  if (x < new Date(Date.now() + 60000)) {
+                    return 'Now';
+                  }
+                  if (differenceInDays(x, Date.now()) < 2) {
+                    const res = formatRelative(x, Date.now(), { locale: enGB });
+                    return res.substr(0, 1).toLocaleUpperCase() + res.substr(1);
+                  }
+                  return format(x, 'PPpp', { locale: enGB });
+                }}
+              />
+            </Box>
           </FormField>
           <br />
           <Button primary fill type="submit" label="Estimate" />

@@ -3,21 +3,29 @@ import { Grommet } from 'grommet';
 import loadGoogleMapsApi from 'load-google-maps-api';
 import { MuiPickersUtilsProvider } from 'material-ui-pickers';
 import React, { useEffect, useState } from 'react';
-import { getConsumption } from '../../utils/getConsumption';
-import { getElevation } from '../../utils/getElevation';
+import { hot } from 'react-hot-loader/root';
+import { getRouteWithElevation } from '../../utils/getRouteWithElevation';
 import { getWeather } from '../../utils/getWeather';
 import { DirectionsInput } from '../directions-input/DirectionsInput';
 import { Estimate } from '../estimate/Estimate';
 
-export function App() {
+function App() {
   const [googleMaps, setGoogleMaps] = useState<any>(null);
-  const [consumption, setConsumption] = useState<any>(null);
+  const [route, setRoute] = useState<any>(null);
+  const [weather, setWeather] = useState<any>(null);
+  const [estimate, setEstimate] = useState<any>(null);
 
   useEffect(() => {
     loadGoogleMapsApi({ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }).then(
       setGoogleMaps
     );
   }, []);
+
+  const onResetClick = () => {
+    setEstimate(null);
+    setRoute(null);
+    setWeather(null);
+  };
 
   const onDirectionsSubmit = async ({ origin, destination, when }: any) => {
     const directionService = new googleMaps.DirectionsService();
@@ -37,10 +45,9 @@ export function App() {
           return;
         }
 
-        const elevation = await getElevation(res, googleMaps);
-        const weather = await getWeather(res);
-
-        getConsumption(res, elevation, weather).then(setConsumption);
+        setRoute(await getRouteWithElevation(res, googleMaps));
+        setWeather(await getWeather(res));
+        setEstimate({ when });
       }
     );
   };
@@ -49,8 +56,13 @@ export function App() {
     <div style={{ margin: 16 }}>
       <Grommet>
         <MuiPickersUtilsProvider utils={DateFnsUtils}>
-          {consumption ? (
-            <Estimate consumption={consumption} />
+          {estimate ? (
+            <Estimate
+              route={route}
+              weather={weather}
+              when={estimate.when}
+              onReset={onResetClick}
+            />
           ) : (
             <DirectionsInput onSubmit={onDirectionsSubmit} />
           )}
@@ -59,3 +71,5 @@ export function App() {
     </div>
   );
 }
+
+export default hot(App);
