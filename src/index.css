@@ -12,3 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mui-datepicker {
+  color: inherit !important;
+}
+
+.mui-datepicker > input {
+  padding: 11px;
+  font-weight: 600;
+  color: inherit;
+}
+
+.mui-datepicker:before,
+.mui-datepicker:after {
+  display: none !important;
+}
