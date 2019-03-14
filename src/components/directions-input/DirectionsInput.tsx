@@ -45,6 +45,7 @@ export const DirectionsInput = ({ onSubmit }: DirectionsInput) => {
                 value={selectedDate}
                 onChange={handleDateChange}
                 disablePast
+                maxDate={new Date(Date.now() + 5 * 86400 * 1000)}
                 ampm={false}
                 InputProps={{
                   className: 'mui-datepicker',

@@ -1,14 +1,21 @@
+import cars from '../data/cars.json';
 import { cardinalDirection } from '../math/cardinalDirection';
 import { Consumption } from '../models/Consumption';
 import { geoPointDistance } from './geoPointDistance';
 
-const speedster = 1.0;
+const { configuration } = cars.find(c => c.id === 'bmw-i3s')!;
 
-export const getConsumption = async ({ route, weather, when }: any) => {
+export const getConsumption = ({ route, weather, when, parameters }: any) => {
+  const { speedster = 50, batteryCapacity = 64000 } = parameters || {};
+
   const { steps, elevationData } = route;
   let i = 0;
   let totalDistance = 0;
+  let totalDuration = 0;
   const result: any[] = [];
+  const speedsterPow = 1 + (speedster * 0.0005 - 0.025);
+
+  let totalBatteryCapacity = batteryCapacity;
 
   steps.forEach((step: any) => {
     // find closest weather
@@ -31,13 +38,15 @@ export const getConsumption = async ({ route, weather, when }: any) => {
       closestWeather.find((w: any) => w.dt > dt) || closestWeather.pop();
 
     const speedInKmPerHour =
-      (((step.distance.value / step.duration.value) * 3600) / 1000) * speedster;
+      (((step.distance.value / step.duration.value) * 3600) / 1000) **
+      speedsterPow;
 
     let sumElv = 1;
     step.points.forEach((point: any, index: number, arr: any) => {
       const a: [number, number] = [point[0].lat(), point[0].lng()];
       const b: [number, number] = [point[1].lat(), point[1].lng()];
       const distance = geoPointDistance(a, b);
+      const duration = (distance / step.distance.value) * step.duration.value;
 
       const elv = point.map((p: any) => {
         return elevationData.find((ep: any) => ep.location.equals(p));
@@ -73,17 +82,22 @@ export const getConsumption = async ({ route, weather, when }: any) => {
         absoluteAirPressureInPascal,
         cardinalDirection: cardinalDirection(a, b),
         distance,
+        ...configuration,
       } as any);
 
       result.push({
         i,
         distance: totalDistance,
+        duration: totalDuration,
+        battery: totalBatteryCapacity,
         point,
         consumption,
       });
 
       i++;
+      totalBatteryCapacity -= consumption.totalConsumption;
       totalDistance += distance;
+      totalDuration += duration;
     });
   });
 

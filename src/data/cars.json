@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hyundai-kona-ev",
+    "year": 2018,
+    "make": "Hyundai",
+    "model": "Kona EV",
+    "configuration": {
+      "massOfCarInKg": 1748,
+      "dragCoefficient": 0.29,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.511
+    }
+  },
+  {
+    "id": "bmw-i3s",
+    "year": 2019,
+    "make": "BMW",
+    "model": "i3s",
+    "configuration": {
+      "massOfCarInKg": 1290,
+      "dragCoefficient": 0.3,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.38
+    }
+  }
+]

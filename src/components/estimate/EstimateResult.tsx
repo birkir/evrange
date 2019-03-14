@@ -1,168 +1,219 @@
-import { Stream } from '@nivo/stream';
+import {
+  Paper,
+  Table,
+  TableBody,
+  TableCell,
+  TableRow,
+} from '@material-ui/core';
+import { Box, Text } from 'grommet';
+import Highcharts from 'highcharts';
+import HighchartsReact from 'highcharts-react-official';
 import React from 'react';
 
-export const EstimateResult = ({ result: { steps, aggregated } }: any) => {
-  const data = steps.map((step: any) => {
-    return {
-      Incline: Math.round(step.consumption.inclineConsumption),
-      'Rolling Resistance': Math.round(
-        step.consumption.rollingResistanceConsumption
-      ),
-      'Wind Drag': Math.round(step.consumption.windDragConsumption),
-      Motor: Math.round(step.consumption.motorConsumption),
-      Inverter: Math.round(step.consumption.inverterConsumption),
-      'Batter Discharge': Math.round(step.consumption.batteryDischarge),
-    };
+Highcharts.Pointer.prototype.reset = () => undefined;
+
+const onHighchartsCreated = (chart: any) => {
+  ['mousemove', 'touchmove', 'touchstart'].forEach((eventType: any) => {
+    chart.renderTo.addEventListener(eventType, (e: any) => {
+      for (const c of Highcharts.charts) {
+        if (c) {
+          const ev = c.pointer.normalize(e);
+          const point = (c.series[0] as any).searchPoint(ev, true);
+          if (point) {
+            const event = point.series.chart.pointer.normalize(e);
+            point.onMouseOver();
+            point.series.chart.tooltip.refresh(point);
+            point.series.chart.xAxis[0].drawCrosshair(event, point);
+          }
+        }
+      }
+    });
   });
+};
+
+export const EstimateResult = ({ result: { steps, aggregated } }: any) => {
+  const consumptionSeries = [
+    {
+      data: steps.map((step: any) => [
+        step.distance / 1000,
+        Math.round(step.consumption.averageConsumption),
+      ]),
+      tooltip: {
+        valueSuffix: ' W',
+      },
+      type: 'spline',
+      color: Highcharts.getOptions().colors![0],
+    },
+  ] as any;
+
+  const speedSeries = [
+    {
+      data: steps.map((step: any) => [
+        step.distance / 1000,
+        Math.round(step.consumption.speedInKmPerHour),
+      ]),
+      tooltip: {
+        valueSuffix: ' km/h',
+      },
+      type: 'spline',
+      color: Highcharts.getOptions().colors![1],
+    },
+  ] as any;
+
+  const elevationSeries = [
+    {
+      data: steps.map((step: any) => [
+        step.distance / 1000,
+        Math.round(step.consumption.heightAboveReference),
+      ]),
+      tooltip: {
+        valueSuffix: ' m',
+      },
+      color: Highcharts.getOptions().colors![2],
+    },
+  ] as any;
+
+  const options: Highcharts.Options = {
+    title: {
+      text: 'Average Consumption',
+      align: 'left',
+      margin: 0,
+      x: 0,
+    },
+    tooltip: {
+      positioner() {
+        return {
+          x: (this as any).chart.chartWidth - (this as any).label.width,
+          y: 10,
+        };
+      },
+      borderWidth: 0,
+      backgroundColor: 'none',
+      pointFormat: '{point.y}',
+      headerFormat: '',
+      shadow: false,
+      style: {
+        fontSize: '18px',
+      },
+    },
+    chart: {
+      height: 300,
+      marginLeft: 0,
+      spacingTop: 20,
+      spacingBottom: 0,
+      backgroundColor: 'transparent',
+    },
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
+      crosshair: true,
+      labels: {
+        format: '{value} km',
+      },
+    },
+    yAxis: {
+      title: {
+        text: null,
+      },
+    },
+    legend: {
+      enabled: false,
+    },
+  };
+
+  const rows = [
+    {
+      name: 'Consumption (Total)',
+      value: aggregated.averageConsumption / steps.length,
+      unit: 'Wh/km',
+    },
+    {
+      name: 'Consumption from incline',
+      value: aggregated.inclineConsumption / steps.length,
+      unit: 'Wh/km',
+    },
+    {
+      name: 'Consumption from battery discharge heat',
+      value: aggregated.batteryDischarge / steps.length,
+      unit: 'Wh/km',
+    },
+    {
+      name: 'Consumption from DC to AC inverter for motor power',
+      value: aggregated.inverterConsumption / steps.length,
+      unit: 'Wh/km',
+    },
+    {
+      name: 'Consumption from motor',
+      value: aggregated.motorConsumption / steps.length,
+      unit: 'Wh/km',
+    },
+    {
+      name: 'Consumption from wind drag',
+      value: aggregated.windDragConsumption / steps.length,
+      unit: 'Wh/km',
+    },
+    {
+      name: 'Consumption from tyre drag',
+      value: aggregated.rollingResistanceConsumption / steps.length,
+      unit: 'Wh/km',
+    },
+  ];
 
   return (
-    <div>
-      <div style={{ marginLeft: -32 }}>
-        <Stream
-          data={data}
-          width={800}
-          height={400}
-          keys={[
-            'Incline',
-            'Rolling Resistance',
-            'Wind Drag',
-            'Motor',
-            'Inverter',
-            'Batter Discharge',
-          ]}
-          margin={{
-            top: 32,
-            right: 0,
-            bottom: 64,
-            left: 32,
-          }}
-          axisTop={null}
-          axisRight={null}
-          axisBottom={null}
-          axisLeft={{
-            orient: 'left',
-            tickSize: 5,
-            tickPadding: 5,
-            tickRotation: 0,
-            legend: 'Watts',
-            legendOffset: -40,
-          }}
-          offsetType="none"
-          fillOpacity={0.85}
-          borderColor="#000"
-          defs={[
-            {
-              id: 'dots',
-              type: 'patternDots',
-              background: 'inherit',
-              color: '#2c998f',
-              size: 4,
-              padding: 2,
-              stagger: true,
-            },
-            {
-              id: 'squares',
-              type: 'patternSquares',
-              background: 'inherit',
-              color: '#e4c912',
-              size: 6,
-              padding: 2,
-              stagger: true,
-            },
-          ]}
-          dotSize={8}
-          dotBorderWidth={2}
-          dotBorderColor="inherit:brighter(0.7)"
-          animate={true}
-          motionStiffness={90}
-          motionDamping={15}
-          enableGridX={false}
-          legends={[
-            {
-              anchor: 'bottom',
-              direction: 'row',
-              translateX: 0,
-              translateY: 32,
-              itemWidth: 120,
-              itemHeight: 20,
-              itemTextColor: '#999',
-              symbolSize: 12,
-              symbolShape: 'circle',
-              effects: [
-                {
-                  on: 'hover',
-                  style: {
-                    itemTextColor: '#000',
-                  },
-                },
-              ],
-            },
-          ]}
-        />
-      </div>
-      <p>
-        <strong>Notice</strong> Not encountering for regenerative charging or
-        heating
-      </p>
-      <h4>
-        Total:{' '}
-        {aggregated.totalConsumption.toLocaleString('en-GB', {
-          maximumFractionDigits: 0,
-        })}{' '}
-        Watts
-      </h4>
-      <h5>
-        Average:{' '}
-        {(aggregated.averageConsumption / steps.length).toLocaleString(
-          'en-GB',
-          { maximumFractionDigits: 0 }
-        )}{' '}
-        W/km
-      </h5>
-      <ul>
-        <li>
-          rollingResistance:{' '}
-          {aggregated.rollingResistanceConsumption.toLocaleString('en-GB', {
-            maximumFractionDigits: 0,
-          })}{' '}
-          W
-        </li>
-        <li>
-          windDrag:{' '}
-          {aggregated.windDragConsumption.toLocaleString('en-GB', {
-            maximumFractionDigits: 0,
-          })}{' '}
-          W
-        </li>
-        <li>
-          motor:{' '}
-          {aggregated.motorConsumption.toLocaleString('en-GB', {
-            maximumFractionDigits: 0,
-          })}{' '}
-          W
-        </li>
-        <li>
-          inverter:{' '}
-          {aggregated.inverterConsumption.toLocaleString('en-GB', {
-            maximumFractionDigits: 0,
-          })}{' '}
-          W
-        </li>
-        <li>
-          battery:{' '}
-          {aggregated.batteryDischarge.toLocaleString('en-GB', {
-            maximumFractionDigits: 0,
-          })}{' '}
-          W
-        </li>
-        <li>
-          incline:{' '}
-          {aggregated.inclineConsumption.toLocaleString('en-GB', {
-            maximumFractionDigits: 0,
-          })}{' '}
-          W
-        </li>
-      </ul>
-    </div>
+    <>
+      <Box width="large" style={{ marginBottom: 16 }}>
+        <Paper style={{ padding: 16 }}>
+          <HighchartsReact
+            highcharts={Highcharts}
+            options={{
+              ...options,
+              title: { ...options.title, text: 'Consumption' },
+              series: consumptionSeries,
+            }}
+            callback={onHighchartsCreated}
+          />
+          <HighchartsReact
+            highcharts={Highcharts}
+            options={{
+              ...options,
+              title: { ...options.title, text: 'Speed' },
+              series: speedSeries,
+            }}
+            callback={onHighchartsCreated}
+          />
+          <HighchartsReact
+            highcharts={Highcharts}
+            options={{
+              ...options,
+              title: { ...options.title, text: 'Elevation' },
+              series: elevationSeries,
+            }}
+            callback={onHighchartsCreated}
+          />
+        </Paper>
+      </Box>
+      <Box width="large">
+        <Paper>
+          <Table>
+            <TableBody>
+              {rows.map((row, index) => (
+                <TableRow key={index}>
+                  <TableCell component="th" scope="row">
+                    <Text size="small">{row.name}</Text>
+                  </TableCell>
+                  <TableCell align="right" padding="none">
+                    <Text>{row.value.toFixed(1)}</Text>
+                  </TableCell>
+                  <TableCell align="right" style={{ width: 50 }}>
+                    <Text>{row.unit}</Text>
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </Paper>
+      </Box>
+    </>
   );
 };

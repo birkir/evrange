@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import { hot } from 'react-hot-loader/root';
 import { getRouteWithElevation } from '../../utils/getRouteWithElevation';
 import { getWeather } from '../../utils/getWeather';
+import { nineties } from '../../utils/themes/nineties';
 import { DirectionsInput } from '../directions-input/DirectionsInput';
 import { Estimate } from '../estimate/Estimate';
 
@@ -53,22 +54,20 @@ function App() {
   };
 
   return (
-    <div style={{ margin: 16 }}>
-      <Grommet>
-        <MuiPickersUtilsProvider utils={DateFnsUtils}>
-          {estimate ? (
-            <Estimate
-              route={route}
-              weather={weather}
-              when={estimate.when}
-              onReset={onResetClick}
-            />
-          ) : (
-            <DirectionsInput onSubmit={onDirectionsSubmit} />
-          )}
-        </MuiPickersUtilsProvider>
-      </Grommet>
-    </div>
+    <Grommet>
+      <MuiPickersUtilsProvider utils={DateFnsUtils}>
+        {estimate ? (
+          <Estimate
+            route={route}
+            weather={weather}
+            when={estimate.when}
+            onReset={onResetClick}
+          />
+        ) : (
+          <DirectionsInput onSubmit={onDirectionsSubmit} />
+        )}
+      </MuiPickersUtilsProvider>
+    </Grommet>
   );
 }
 

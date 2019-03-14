@@ -38,8 +38,9 @@ export const Consumption = types
     motorEfficiencyAtMin: 0.85,
     speedInKmPerHourAtMaxMotorEfficiency: 90,
 
-    // unused
+    // x-axis
     distance: 0,
+    duration: 0,
   })
   .views(self => ({
     get speedInMsec() {
