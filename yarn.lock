@@ -797,12 +797,6 @@
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.3.tgz#6310a047f12d21a1036fb031317219892440416f"
 
-"@google/maps@0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@google/maps/-/maps-0.5.5.tgz#478a5791e3b8d444be966462daec3ee43eb331e0"
-  dependencies:
-    uuid ">=2.2.1"
-
 "@mapbox/polyline@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@mapbox/polyline/-/polyline-1.0.0.tgz#b6f1c3cf61f8dddcf9ac6dce0b2e50e5f4e965bc"
@@ -984,7 +978,6 @@
 "@types/lodash@4.14.123":
   version "4.14.123"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.123.tgz#39be5d211478c8dd3bdae98ee75bb7efe4abfe4d"
-  integrity sha512-pQvPkc4Nltyx7G1Ww45OjVqUsJP4UsZm+GWJpigXgkikZqJgRm4c48g027o6tdgubWHwFRF15iFd+Y4Pmqv6+Q==
 
 "@types/node@*":
   version "11.10.5"
@@ -1011,7 +1004,6 @@
 "@types/react-native@*":
   version "0.57.40"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.40.tgz#a227acb6b2c7372cb678202df4cfe716ace9ce94"
-  integrity sha512-nCcF9gNYp/VeV5QBtHbn/VnXZG+T8EsMxZFx8qqZfBe1gxJUsldXgOXYd1kcrrYzUX0LqG/KipDBX++fB2qQ0g==
   dependencies:
     "@types/prop-types" "*"
     "@types/react" "*"
@@ -1038,7 +1030,6 @@
 "@types/styled-components@4.1.12":
   version "4.1.12"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.1.12.tgz#62c19bd1aa37b1a904d36c179a0fec66c24ac99c"
-  integrity sha512-Du0bltHm5sWkDnXzYi6cMNhnSKWHQW6//at359DtRJNfjeG1SdtqQPX6jiVtrUkBJ1JsjxqT18DssYBLJ/fg/A==
   dependencies:
     "@types/react" "*"
     "@types/react-native" "*"
@@ -1070,7 +1061,6 @@
 "@types/webpack-env@1.13.9":
   version "1.13.9"
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.9.tgz#a67287861c928ebf4159a908d1fb1a2a34d4097a"
-  integrity sha512-p8zp5xqkly3g4cCmo2mKOHI9+Z/kObmDj0BmjbDDJQlgDTiEGTbm17MEwTAusV6XceCy+bNw9q/ZHXHyKo3zkg==
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -2128,6 +2118,10 @@ chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
 
+chartjs@^0.3.24:
+  version "0.3.24"
+  resolved "https://registry.yarnpkg.com/chartjs/-/chartjs-0.3.24.tgz#3addeb5ae3606b3e89e346c27d52ca158416e93d"
+
 check-types@^7.3.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-7.4.0.tgz#0378ec1b9616ec71f774931a3c6516fad8c152f4"
@@ -3002,7 +2996,6 @@ dom-serializer@0:
 dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
-  integrity sha1-ZyIm3HTI95mtNTB9+TaroRrNYBg=
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -3985,7 +3978,6 @@ global-prefix@^3.0.0:
 global@^4.3.0:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/global/-/global-4.3.2.tgz#e76989268a6c74c38908b1305b10fc0e394e9d0f"
-  integrity sha1-52mJJopsdMOJCLEwWxD8DjlOnQ8=
   dependencies:
     min-document "^2.19.0"
     process "~0.5.1"
@@ -4024,6 +4016,20 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
 
+grommet-controls@1.1.15:
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/grommet-controls/-/grommet-controls-1.1.15.tgz#6fe20b1c970582b8414b05f02ce10be195345a77"
+  dependencies:
+    chartjs "^0.3.24"
+    markdown-to-jsx "^6.6.6"
+    node-emoji "^1.8.1"
+    polished "^2.0.3"
+    prop-types "^15.5.10"
+    react-desc "^4.1.2"
+    recompose "^0.30.0"
+    text-mask-addons "^3.7.2"
+    text-mask-core "^5.0.1"
+
 grommet-icons@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/grommet-icons/-/grommet-icons-4.2.0.tgz#7bcf7d4b37f694516ade084e2536c72b224c6a76"
@@ -4033,16 +4039,6 @@ grommet-icons@^4.2.0:
 grommet-styles@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/grommet-styles/-/grommet-styles-0.2.0.tgz#b2eac2b7e2747cb523434d21728ce5234f8ce4f4"
-
-grommet-theme-aruba@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/grommet-theme-aruba/-/grommet-theme-aruba-0.1.2.tgz#e72c7d5e3c46d854d614b67976b0dddb146405cc"
-  integrity sha512-A+NDKYCwLUMPXsZm1UhxePwSKkQmg6VrFxSLAe2rRQ4FkBL3WS2rtQfweTj/oh2DD8pdJLsPkIMSFDP6eiZByw==
-
-grommet-theme-hpe@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/grommet-theme-hpe/-/grommet-theme-hpe-0.4.2.tgz#f2c4d02341056a34d32f1fbc4f843b523912dce5"
-  integrity sha512-3GlnYNBM2DM90hgzrSedm40BsxIJaN6eDr5Ezeyqpp4SvwQnXpaEzlWkXiokTsgDlMhtNI/WoxWG9l/l9+y9oQ==
 
 grommet@2.5.5:
   version "2.5.5"
@@ -4202,12 +4198,10 @@ hex-color-regex@^1.1.0:
 highcharts-react-official@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/highcharts-react-official/-/highcharts-react-official-2.1.1.tgz#c3f323fc2db4eaf9aebee48660f97fc0e73b8b7f"
-  integrity sha512-No02RtlBESjMt11M3hZxFG04si3dbYCCmt31GNLeg4IVPJlx2kjsMNMKRy0yDGA7PsCJPUO0S8imngkN0T9x0Q==
 
 highcharts@7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-7.0.3.tgz#0c8edb578bae28774b9f0d49cf1ae4887b126305"
-  integrity sha512-ubfHLDqKZkGLfDGWYPaa9txLwiJDSWphMZ15xdC0RKKKxZ2ZBc13+MjDfz5ARpYGQvCHmytGOGFUgRWEvkOhNA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -5695,6 +5689,10 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "~3.0.0"
 
+lodash.toarray@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
+
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
@@ -5702,7 +5700,6 @@ lodash.uniq@^4.5.0:
 lodash@4.17.11, "lodash@>=3.5 <5", lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
 log-symbols@^1.0.2:
   version "1.0.2"
@@ -5950,7 +5947,6 @@ mimic-fn@^1.0.0:
 min-document@^2.19.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/min-document/-/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
-  integrity sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
   dependencies:
     dom-walk "^0.1.0"
 
@@ -6138,6 +6134,12 @@ no-case@^2.2.0:
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
   dependencies:
     lower-case "^1.1.1"
+
+node-emoji@^1.8.1:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.10.0.tgz#8886abd25d9c7bb61802a658523d1f8d2a89b2da"
+  dependencies:
+    lodash.toarray "^4.4.0"
 
 node-fetch@^1.0.1:
   version "1.7.3"
@@ -6743,7 +6745,7 @@ pnp-webpack-plugin@1.2.1:
   dependencies:
     ts-pnp "^1.0.0"
 
-polished@^2.2.0:
+polished@^2.0.3, polished@^2.2.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/polished/-/polished-2.3.3.tgz#bdbaba962ba8271b0e11aa287f2befd4c87be99a"
   dependencies:
@@ -7367,7 +7369,6 @@ process@^0.11.10:
 process@~0.5.1:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/process/-/process-0.5.2.tgz#1638d8a8e34c2f440a91db95ab9aeb677fc185cf"
-  integrity sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8=
 
 progress@^2.0.0:
   version "2.0.3"
@@ -7615,7 +7616,6 @@ react-event-listener@^0.6.2, react-event-listener@^0.6.6:
 react-hot-loader@4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.8.0.tgz#0b7c7dd9407415e23eb8246fdd28b0b839f54cb6"
-  integrity sha512-HY9F0vITYSVmXhAR6tPkMk240nxmoH8+0rca9iO2B82KVguiCiBJkieS0Wb4CeSIzLWecYx3iOcq8dcbnp0bxA==
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
@@ -8254,7 +8254,6 @@ shallow-clone@^1.0.0:
 shallowequal@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
-  integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -8406,7 +8405,6 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
 source-map@^0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
-  integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
 space-separated-tokens@^1.0.0:
   version "1.1.2"
@@ -8804,6 +8802,14 @@ test-exclude@^4.2.1:
     read-pkg-up "^1.0.1"
     require-main-filename "^1.0.1"
 
+text-mask-addons@^3.7.2:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/text-mask-addons/-/text-mask-addons-3.8.0.tgz#17b61ef665a4f36811f2ea1f01a223b4be61ab26"
+
+text-mask-core@^5.0.1:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/text-mask-core/-/text-mask-core-5.1.2.tgz#80dd5ebe04825757e46619e691407a9f8b3c1b6f"
+
 text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -9168,7 +9174,7 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
-uuid@>=2.2.1, uuid@^3.0.1, uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 

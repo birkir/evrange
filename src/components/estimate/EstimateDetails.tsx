@@ -1,12 +1,28 @@
 import { Box, Grid, RangeInput, Select, Text } from 'grommet';
 import React from 'react';
+import cars from '../../data/cars.json';
 
-export const EstimateDetails = ({ when, route, result, weather }: any) => {
+export const EstimateDetails = ({
+  when,
+  route,
+  result,
+  weather,
+  children,
+  config,
+  onConfigChange,
+}: any) => {
   const leg = route.direction.routes[0].legs[0];
   const { aggregated, steps } = result || { aggregated: {}, steps: [] };
   const totalConsumption = aggregated.totalConsumption || 0;
   const averageConsumption =
     (aggregated.averageConsumption || 1) / (steps.length || 1);
+
+  const onSpeedChange = (e: any) =>
+    onConfigChange({ ...config, speed: e.currentTarget.value });
+
+  const onCarChange = (e: any) => {
+    onConfigChange({ ...config, car: e.value });
+  };
 
   return (
     <Box width="large" style={{ marginBottom: 16 }}>
@@ -20,17 +36,21 @@ export const EstimateDetails = ({ when, route, result, weather }: any) => {
       >
         <Box background="brand" pad="small">
           <Text size="small">Trip</Text>
-          <Text size="xlarge">{leg.start_address}</Text>
-          <Text size="xlarge">
-            <span style={{ fontSize: 22 }}>to </span> {leg.end_address}
+          <Text size="large">{leg.start_address}</Text>
+          <Text size="large">
+            <span style={{ fontSize: 20 }}>to </span> {leg.end_address}
           </Text>
           <br />
           <Text size="small">Distance</Text>
           <Text size="xlarge">{leg.distance.text}</Text>
-          <Text size="small" style={{ marginTop: 8 }}>
-            Duration in traffic
-          </Text>
+          <br />
+          <Text size="small">Duration in traffic</Text>
           <Text size="xlarge">{leg.duration_in_traffic.text}</Text>
+          <br />
+          {children}
+          {/* <br />
+          <Text size="small">Weather</Text>
+          <Text size="xlarge">10 C - 5 m/s 80 DEG - </Text> */}
         </Box>
         <Box>
           <Box background="accent-1" pad="small" style={{ marginBottom: 12 }}>
@@ -47,22 +67,35 @@ export const EstimateDetails = ({ when, route, result, weather }: any) => {
             <Select
               plain
               id="select"
-              value="Tesla Model S"
+              value={config.car.name}
               placeholder="Select car from the list"
-              options={['Hyundai Kona EV', 'Tesla Model S']}
-            />
+              options={cars}
+              onChange={onCarChange}
+            >
+              {value => (
+                <Box direction="row" align="center" pad="small" flex={false}>
+                  {value.name}
+                </Box>
+              )}
+            </Select>
           </Box>
           <Box background="light-3" pad="small">
             <Box direction="row" justify="between">
               <Text size="small">Speed adjustment</Text>
-              <Text size="small">100%</Text>
+              <Text size="small">{Math.floor(config.speed * 2) - 100}%</Text>
             </Box>
-            <RangeInput min={0} max={100} value={50} />
-            <Box direction="row" justify="between" style={{ marginTop: 16 }}>
+            <RangeInput
+              step={5}
+              min={0}
+              max={100}
+              value={config.speed}
+              onChange={onSpeedChange}
+            />
+            {/* <Box direction="row" justify="between" style={{ marginTop: 16 }}>
               <Text size="small">Heater adjustment</Text>
               <Text size="small">1kWh/10°C</Text>
             </Box>
-            <RangeInput min={0} max={100} value={50} />
+            <RangeInput min={0} max={100} value={50} /> */}
           </Box>
         </Box>
       </Grid>

@@ -1,23 +1,59 @@
 [
   {
     "id": "hyundai-kona-ev",
-    "year": 2018,
+    "name": "Hyundai Kona EV",
     "make": "Hyundai",
-    "model": "Kona EV",
     "configuration": {
       "massOfCarInKg": 1748,
+      "batteryCapacity": 64000,
       "dragCoefficient": 0.29,
       "rollingCoefficient": 0.0125,
       "dragReferenceAreaInSquareMeters": 2.511
     }
   },
   {
-    "id": "bmw-i3s",
-    "year": 2019,
+    "id": "hyundai-ioniq",
+    "name": "Hyundai IONIQ",
+    "make": "Hyundai",
+    "configuration": {
+      "massOfCarInKg": 1420,
+      "batteryCapacity": 28000,
+      "dragCoefficient": 0.24,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.629
+    }
+  },
+  {
+    "id": "tesla-model-3-lrrwd",
+    "name": "Tesla Model 3 (Long-Range RWD)",
+    "make": "Tesla",
+    "configuration": {
+      "massOfCarInKg": 1730,
+      "batteryCapacity": 75000,
+      "dragCoefficient": 0.23,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.22
+    }
+  },
+  {
+    "id": "tesla-model-s-p85",
+    "name": "Tesla Model S (85kWh)",
+    "make": "Tesla",
+    "configuration": {
+      "massOfCarInKg": 2108,
+      "batteryCapacity": 85000,
+      "dragCoefficient": 0.24,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.35
+    }
+  },
+  {
+    "id": "bmw-i3s-2019",
+    "name": "BMW i3s (2019)",
     "make": "BMW",
-    "model": "i3s",
     "configuration": {
       "massOfCarInKg": 1290,
+      "batteryCapacity": 42200,
       "dragCoefficient": 0.3,
       "rollingCoefficient": 0.0125,
       "dragReferenceAreaInSquareMeters": 2.38

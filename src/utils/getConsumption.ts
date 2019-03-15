@@ -1,21 +1,16 @@
-import cars from '../data/cars.json';
 import { cardinalDirection } from '../math/cardinalDirection';
 import { Consumption } from '../models/Consumption';
 import { geoPointDistance } from './geoPointDistance';
 
-const { configuration } = cars.find(c => c.id === 'bmw-i3s')!;
-
-export const getConsumption = ({ route, weather, when, parameters }: any) => {
-  const { speedster = 50, batteryCapacity = 64000 } = parameters || {};
-
+export const getConsumption = ({ route, weather, when, config }: any) => {
   const { steps, elevationData } = route;
   let i = 0;
   let totalDistance = 0;
   let totalDuration = 0;
   const result: any[] = [];
-  const speedsterPow = 1 + (speedster * 0.0005 - 0.025);
+  const speedsterPow = 1 + (config.speed * 0.02 - 1) * 0.1;
 
-  let totalBatteryCapacity = batteryCapacity;
+  let totalBatteryCapacity = config.car.configuration.batteryCapacity || 0;
 
   steps.forEach((step: any) => {
     // find closest weather
@@ -82,7 +77,7 @@ export const getConsumption = ({ route, weather, when, parameters }: any) => {
         absoluteAirPressureInPascal,
         cardinalDirection: cardinalDirection(a, b),
         distance,
-        ...configuration,
+        ...config.car.configuration,
       } as any);
 
       result.push({

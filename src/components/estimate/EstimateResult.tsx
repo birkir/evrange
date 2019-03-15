@@ -46,6 +46,20 @@ export const EstimateResult = ({ result: { steps, aggregated } }: any) => {
     },
   ] as any;
 
+  const batterySeries = [
+    {
+      data: steps.map((step: any) => [
+        step.distance / 1000,
+        Number((step.battery / 1000).toFixed(2)),
+      ]),
+      tooltip: {
+        valueSuffix: ' kWh',
+      },
+      type: 'area',
+      color: Highcharts.getOptions().colors![5],
+    },
+  ] as any;
+
   const speedSeries = [
     {
       data: steps.map((step: any) => [
@@ -170,6 +184,15 @@ export const EstimateResult = ({ result: { steps, aggregated } }: any) => {
               ...options,
               title: { ...options.title, text: 'Consumption' },
               series: consumptionSeries,
+            }}
+            callback={onHighchartsCreated}
+          />
+          <HighchartsReact
+            highcharts={Highcharts}
+            options={{
+              ...options,
+              title: { ...options.title, text: 'Capacity' },
+              series: batterySeries,
             }}
             callback={onHighchartsCreated}
           />

@@ -1,5 +1,6 @@
 import DateFnsUtils from '@date-io/date-fns';
-import { Grommet } from 'grommet';
+import { Box, Grommet } from 'grommet';
+import * as themes from 'grommet-controls/themes';
 import loadGoogleMapsApi from 'load-google-maps-api';
 import { MuiPickersUtilsProvider } from 'material-ui-pickers';
 import React, { useEffect, useState } from 'react';
@@ -10,11 +11,37 @@ import { nineties } from '../../utils/themes/nineties';
 import { DirectionsInput } from '../directions-input/DirectionsInput';
 import { Estimate } from '../estimate/Estimate';
 
+const qs = window.location.search
+  .substr(1)
+  .split('&')
+  .reduce((acc: any, item: any) => {
+    const [key, value] = item.split('=').map(decodeURIComponent);
+    acc[key] = value;
+    return acc;
+  }, {});
+
 function App() {
   const [googleMaps, setGoogleMaps] = useState<any>(null);
   const [route, setRoute] = useState<any>(null);
   const [weather, setWeather] = useState<any>(null);
   const [estimate, setEstimate] = useState<any>(null);
+
+  let theme: any;
+  if (qs.theme) {
+    if (qs.theme === 'nineties') {
+      theme = nineties;
+    } else if (qs.theme === 'metro') {
+      theme = themes.metro;
+    } else if (qs.theme === 'materiallight') {
+      theme = themes.materiallight;
+    } else if (qs.theme === 'materialdark') {
+      theme = themes.materialdark;
+    } else if (qs.theme === 'light') {
+      theme = themes.light;
+    } else if (qs.theme === 'black') {
+      theme = themes.black;
+    }
+  }
 
   useEffect(() => {
     loadGoogleMapsApi({ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }).then(
@@ -54,7 +81,7 @@ function App() {
   };
 
   return (
-    <Grommet>
+    <Grommet theme={theme}>
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         {estimate ? (
           <Estimate
@@ -66,6 +93,18 @@ function App() {
         ) : (
           <DirectionsInput onSubmit={onDirectionsSubmit} />
         )}
+        <Box fill align="center" justify="center">
+          <p>
+            contact me{' '}
+            <a
+              href="https://github.com/birkir"
+              target="blank"
+              style={{ color: 'gray' }}
+            >
+              @birkir
+            </a>
+          </p>
+        </Box>
       </MuiPickersUtilsProvider>
     </Grommet>
   );

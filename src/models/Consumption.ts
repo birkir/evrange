@@ -102,10 +102,7 @@ export const Consumption = types
       );
     },
     get inclineConsumption() {
-      return Math.max(
-        0,
-        inclineConsumption(self.inclineInPercent, self.massOfCarInKg)
-      );
+      return inclineConsumption(self.inclineInPercent, self.massOfCarInKg);
     },
     get heaterConsumption() {
       return heaterConsumption(self.heaterAcPower, (self as any).speedInMsec);

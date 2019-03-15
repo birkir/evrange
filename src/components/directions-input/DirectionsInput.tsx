@@ -1,6 +1,6 @@
 import { differenceInDays, format, formatRelative } from 'date-fns';
 import { enGB } from 'date-fns/locale';
-import { Box, Button, Form, FormField, Heading } from 'grommet';
+import { Box, Button, Form, FormField, Heading, Text } from 'grommet';
 import { DateTimePicker } from 'material-ui-pickers';
 import React, { useState } from 'react';
 
@@ -20,7 +20,7 @@ export const DirectionsInput = ({ onSubmit }: DirectionsInput) => {
   };
   return (
     <Box fill align="center" justify="center">
-      <Heading level="3">Estimate Trip</Heading>
+      <Heading level="3">EV Range Estimator</Heading>
       <Box
         width="medium"
         background="light-1"
