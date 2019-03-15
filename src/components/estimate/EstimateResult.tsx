@@ -136,40 +136,42 @@ export const EstimateResult = ({ result: { steps, aggregated } }: any) => {
     },
   };
 
+  const factor = steps[steps.length - 1].distance / 1000;
+
   const rows = [
     {
       name: 'Consumption (Total)',
-      value: aggregated.averageConsumption / steps.length,
+      value: aggregated.averageConsumption / factor,
       unit: 'Wh/km',
     },
     {
       name: 'Consumption from incline',
-      value: aggregated.inclineConsumption / steps.length,
+      value: aggregated.inclineConsumption / factor,
       unit: 'Wh/km',
     },
     {
       name: 'Consumption from battery discharge heat',
-      value: aggregated.batteryDischarge / steps.length,
+      value: aggregated.batteryDischarge / factor,
       unit: 'Wh/km',
     },
     {
       name: 'Consumption from DC to AC inverter for motor power',
-      value: aggregated.inverterConsumption / steps.length,
+      value: aggregated.inverterConsumption / factor,
       unit: 'Wh/km',
     },
     {
       name: 'Consumption from motor',
-      value: aggregated.motorConsumption / steps.length,
+      value: aggregated.motorConsumption / factor,
       unit: 'Wh/km',
     },
     {
       name: 'Consumption from wind drag',
-      value: aggregated.windDragConsumption / steps.length,
+      value: aggregated.windDragConsumption / factor,
       unit: 'Wh/km',
     },
     {
       name: 'Consumption from tyre drag',
-      value: aggregated.rollingResistanceConsumption / steps.length,
+      value: aggregated.rollingResistanceConsumption / factor,
       unit: 'Wh/km',
     },
   ];

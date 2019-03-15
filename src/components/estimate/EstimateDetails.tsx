@@ -14,8 +14,7 @@ export const EstimateDetails = ({
   const leg = route.direction.routes[0].legs[0];
   const { aggregated, steps } = result || { aggregated: {}, steps: [] };
   const totalConsumption = aggregated.totalConsumption || 0;
-  const averageConsumption =
-    (aggregated.averageConsumption || 1) / (steps.length || 1);
+  const averageConsumption = (totalConsumption / leg.distance.value) * 1000;
 
   const onSpeedChange = (e: any) =>
     onConfigChange({ ...config, speed: e.currentTarget.value });

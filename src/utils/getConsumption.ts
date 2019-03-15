@@ -110,7 +110,13 @@ export const getConsumption = ({ route, weather, when, config }: any) => {
 
   const aggregated = result.reduce((acc, item) => {
     aggregateKeys.forEach(key => {
-      acc[key] = (acc[key] || 0) + item.consumption[key];
+      if (key === 'totalConsumption') {
+        acc[key] = (acc[key] || 0) + item.consumption[key];
+      } else {
+        acc[key] =
+          (acc[key] || 0) +
+          (item.consumption[key] * item.consumption.distance) / 1000;
+      }
     });
     return acc;
   }, {});
