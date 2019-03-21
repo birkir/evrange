@@ -43,7 +43,7 @@ export const Estimate = ({ route, weather, when, onReset }: any) => {
           primary
         />
       </EstimateDetails>
-      <Box width="large" style={{ marginBottom: 16 }}>
+      {/* <Box width="large" style={{ marginBottom: 16 }}>
         <iframe
           src={`https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d223553.04694320163!2d0!3d0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m3!3m2!1d${leg.start_location.lat()}!2d${leg.start_location.lng()}!4m3!3m2!1d${leg.end_location.lat()}!2d${leg.end_location.lng()}!5e0!3m2!1sen!2sus!4v1552595264691`}
           width="100%"
@@ -52,8 +52,12 @@ export const Estimate = ({ route, weather, when, onReset }: any) => {
           style={{ border: 0 }}
           allowFullScreen
         />
-      </Box>
-      {!consumption ? <Loading /> : <EstimateResult result={consumption} />}
+      </Box> */}
+      {!consumption ? (
+        <Loading />
+      ) : (
+        <EstimateResult config={config} result={consumption} />
+      )}
       <Box pad="medium" justify="center" align="center">
         <Button label="Go back" onClick={onReset} />
       </Box>

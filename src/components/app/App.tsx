@@ -9,6 +9,7 @@ import { getRouteWithElevation } from '../../utils/getRouteWithElevation';
 import { getWeather } from '../../utils/getWeather';
 import { nineties } from '../../utils/themes/nineties';
 import { DirectionsInput } from '../directions-input/DirectionsInput';
+import { DirectionsMap } from '../directions-map/DirectionsMap';
 import { Estimate } from '../estimate/Estimate';
 
 const qs = window.location.search

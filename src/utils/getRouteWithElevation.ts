@@ -57,7 +57,7 @@ export const getRouteWithElevation = async (res: any, googleMaps: any) =>
       { locations },
       (elevationData: any, status: string) => {
         if (status !== 'OK') {
-          console.error('Elevation Status', status);
+          console.error('Elevation Status', status); // tslint:disable-line
         }
 
         return resolve({

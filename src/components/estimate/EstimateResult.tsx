@@ -9,6 +9,7 @@ import { Box, Text } from 'grommet';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import React from 'react';
+import { DirectionsMap } from '../directions-map/DirectionsMap';
 
 Highcharts.Pointer.prototype.reset = () => undefined;
 
@@ -31,7 +32,10 @@ const onHighchartsCreated = (chart: any) => {
   });
 };
 
-export const EstimateResult = ({ result: { steps, aggregated } }: any) => {
+export const EstimateResult = ({
+  config,
+  result: { steps, aggregated, pois },
+}: any) => {
   const consumptionSeries = [
     {
       data: steps.map((step: any) => [
@@ -178,6 +182,7 @@ export const EstimateResult = ({ result: { steps, aggregated } }: any) => {
 
   return (
     <>
+      <DirectionsMap config={config} pois={pois} steps={steps} />
       <Box width="large" style={{ marginBottom: 16 }}>
         <Paper style={{ padding: 16 }}>
           <HighchartsReact

@@ -1,0 +1,3348 @@
+[
+  {
+    "name": "Kaffi Egilssta\u00f0ir",
+    "stations": [
+      {
+        "outlets": [{ "connector": 10, "id": 227706, "power": 0 }],
+        "id": 95274
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 457069, "power": 0 }],
+        "id": 214786
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 457070, "power": 0 }],
+        "id": 214787
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 457071, "power": 0 }],
+        "id": 214788
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/67621",
+    "icon_type": "G",
+    "longitude": -14.407571,
+    "access": 1,
+    "address": "Kaupvangur Egilssta\u00f0ir Iceland",
+    "latitude": 65.258821,
+    "id": 67621,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Orkub\u00fa Vestfjar\u00f0a",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 413197, "power": 0 }],
+        "id": 186420
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 413204, "power": 0 }],
+        "id": 186425
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/110279",
+    "icon_type": "G",
+    "longitude": -23.144352,
+    "access": 1,
+    "address": "Stakkanes 1, 400 \u00cdsafj\u00f6r\u00f0ur",
+    "latitude": 66.070332,
+    "id": 110279,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a, \u00d3lafsv\u00edk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 598768, "power": 0 }],
+        "id": 319668
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 598769, "power": 0 }],
+        "id": 319669
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 598770, "power": 0 }],
+        "id": 319670
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/160686",
+    "icon_type": "Y",
+    "longitude": -23.704996,
+    "access": 1,
+    "address": "\u00d3lafsbraut 38, \u00d3lafsv\u00edk, \u00cdsland",
+    "latitude": 64.894393,
+    "id": 160686,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a M\u00fdvatn/Fossh\u00f3tel",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 548277, "power": 0 },
+          { "connector": 7, "id": 548278, "power": 0 },
+          { "connector": 13, "id": 548279, "power": 0 }
+        ],
+        "id": 278946
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/145847",
+    "icon_type": "Y",
+    "longitude": -16.957854,
+    "access": 1,
+    "score": 9.0,
+    "address": "Reykjahl\u00ed\u00f0",
+    "latitude": 65.659108,
+    "id": 145847,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Camping H\u00f6fn",
+    "stations": [
+      {
+        "outlets": [{ "connector": 15, "id": 456888, "power": 0 }],
+        "id": 214643
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 456889, "power": 0 }],
+        "id": 214644
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 456890, "power": 0 }],
+        "id": 214645
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121693",
+    "icon_type": "G",
+    "longitude": -15.204887,
+    "access": 1,
+    "address": "Hafnarbraut, 780\u200e H\u00f6fn, Island",
+    "latitude": 64.257771,
+    "id": 121693,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Kirkjub\u00e6jarklaustur/N1",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 495149, "power": 0 },
+          { "connector": 13, "id": 495150, "power": 0 }
+        ],
+        "id": 232645
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 545863, "power": 0 }],
+        "id": 276954
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 545864, "power": 0 }],
+        "id": 276955
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/128523",
+    "icon_type": "Y",
+    "longitude": -18.039918,
+    "access": 1,
+    "address": "Kirkjub\u00e6jarklaustur, Iceland. ",
+    "latitude": 63.793543,
+    "id": 128523,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - V\u00edk/N1",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 486110, "power": 0 },
+          { "connector": 3, "id": 486111, "power": 0 },
+          { "connector": 13, "id": 486112, "power": 0 }
+        ],
+        "id": 232643
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/128521",
+    "icon_type": "Y",
+    "longitude": -19.001585,
+    "access": 1,
+    "address": "V\u00edk \u00ed m\u00fdrdal, Iceland ",
+    "latitude": 63.417969,
+    "id": 128521,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Nesjar v. Hornafj\u00f6r\u00f0 - N1",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 548272, "power": 0 }],
+        "id": 278673
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 547940, "power": 0 }],
+        "id": 278671
+      },
+      {
+        "outlets": [
+          { "connector": 3, "id": 547941, "power": 0 },
+          { "connector": 13, "id": 547942, "power": 0 },
+          { "connector": 7, "id": 547943, "power": 0 }
+        ],
+        "id": 278672
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/145753",
+    "icon_type": "Y",
+    "longitude": -15.229468,
+    "access": 1,
+    "address": "Bjarnanes, Hornafj\u00f6r\u00f0ur, Iceland",
+    "latitude": 64.313724,
+    "id": 145753,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "\u00cd\u00fer\u00f3ttasmi\u00f0st\u00f6\u00f0in",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 454946, "power": 0 }],
+        "id": 213402
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121135",
+    "icon_type": "G",
+    "longitude": -23.984615,
+    "access": 1,
+    "address": "A\u00f0alstr\u00e6ti 55, 450 Patreksfj\u00f6r\u00f0ur, Iceland",
+    "latitude": 65.59538,
+    "id": 121135,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Vi\u00f0 sundlaugina",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 455457, "power": 0 }],
+        "id": 213710
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121290",
+    "icon_type": "G",
+    "longitude": -22.730058,
+    "access": 1,
+    "score": 7.8,
+    "address": "Borgarbraut 4, 340 Stykkish\u00f3lmi",
+    "latitude": 65.073344,
+    "id": 121290,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Hr\u00fatafj\u00f6r\u00f0ur/Sta\u00f0arsk\u00e1li-N1",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 488230, "power": 0 }],
+        "id": 214085
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 488228, "power": 0 }],
+        "id": 214084
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 488235, "power": 0 }],
+        "id": 198006
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/114941",
+    "icon_type": "Y",
+    "longitude": -21.084224,
+    "access": 1,
+    "score": 8.4,
+    "address": "Hringvegur, 500\u200e H\u00fana\u00feing vestra, Iceland",
+    "latitude": 65.144085,
+    "id": 114941,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Vegam\u00f3t",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 639610, "power": 0 }],
+        "id": 352134
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 639609, "power": 0 }],
+        "id": 352133
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 639608, "power": 0 }],
+        "id": 352132
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/172741",
+    "icon_type": "Y",
+    "longitude": -22.73527,
+    "access": 1,
+    "address": "Vegam\u00f3t, 311 Borgarnes (dreifb\u00fdli)",
+    "latitude": 64.849125,
+    "id": 172741,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Bl\u00f6ndu\u00f3s/N1",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 485695, "power": 0 }],
+        "id": 200301
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 533014, "power": 0 }],
+        "id": 266324
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 533015, "power": 0 }],
+        "id": 266325
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/115895",
+    "icon_type": "Y",
+    "longitude": -20.274979,
+    "access": 1,
+    "score": 9.0,
+    "address": "Nor\u00f0urlandsvegi 3, 540 Bl\u00f6ndu\u00f3s, Iceland",
+    "latitude": 65.660065,
+    "id": 115895,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Varmahl\u00ed\u00f0",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 485699, "power": 0 },
+          { "connector": 3, "id": 485700, "power": 0 },
+          { "connector": 13, "id": 485701, "power": 0 }
+        ],
+        "id": 200382
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/115928",
+    "icon_type": "Y",
+    "longitude": -19.44667,
+    "access": 1,
+    "score": 9.0,
+    "address": "Laugavegur 17-7",
+    "latitude": 65.554026,
+    "id": 115928,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Orkub\u00fa Vestfjar\u00f0a H\u00f3lmav\u00edk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 615303, "power": 0 }],
+        "id": 333062
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 615302, "power": 0 }],
+        "id": 333061
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 615301, "power": 0 }],
+        "id": 333060
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/165638",
+    "icon_type": "Y",
+    "longitude": -21.685178,
+    "access": 1,
+    "address": "Mi\u00f0t\u00fan, H\u00f3lmav\u00edk, \u00cdsland",
+    "latitude": 65.70059,
+    "id": 165638,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - J\u00f6kuls\u00e1rl\u00f3n",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 500937, "power": 0 },
+          { "connector": 3, "id": 500938, "power": 0 },
+          { "connector": 13, "id": 500939, "power": 0 }
+        ],
+        "id": 242856
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/132818",
+    "icon_type": "Y",
+    "longitude": -16.179763,
+    "access": 1,
+    "address": "J\u00f6kuls\u00e1rl\u00f3n",
+    "latitude": 64.048076,
+    "id": 132818,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Freysnes",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 500930, "power": 0 },
+          { "connector": 3, "id": 500931, "power": 0 },
+          { "connector": 13, "id": 500932, "power": 0 }
+        ],
+        "id": 242855
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/132817",
+    "icon_type": "Y",
+    "longitude": -16.895739,
+    "access": 1,
+    "address": "Freysnes",
+    "latitude": 63.990615,
+    "id": 132817,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Orkusalan ",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 455396, "power": 0 }],
+        "id": 213694
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121280",
+    "icon_type": "G",
+    "longitude": -21.449068,
+    "access": 1,
+    "address": "iceland, drangsnes",
+    "latitude": 65.688796,
+    "id": 121280,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Hvolsv\u00f6llur/Hl\u00ed\u00f0arendi-N1",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 488250, "power": 0 },
+          { "connector": 3, "id": 488251, "power": 0 },
+          { "connector": 13, "id": 488252, "power": 0 }
+        ],
+        "id": 233215
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/124582",
+    "icon_type": "Y",
+    "longitude": -20.234367,
+    "access": 1,
+    "address": "\u00dej\u00f3\u00f0vegur, Hvolsv\u00f6llur, Iceland",
+    "latitude": 63.750049,
+    "id": 124582,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Egilssta\u00f0ir/N1",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 506733, "power": 0 },
+          { "connector": 3, "id": 506734, "power": 0 },
+          { "connector": 13, "id": 526892, "power": 0 }
+        ],
+        "id": 246982
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/134377",
+    "icon_type": "Y",
+    "longitude": -14.408231,
+    "access": 1,
+    "address": "Kaupvangur 4",
+    "latitude": 65.260344,
+    "id": 134377,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Nor\u00f0ur\u00feing, StoppuStu\u00f0-Orkusalan",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 473817, "power": 0 }],
+        "id": 217859
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/122985",
+    "icon_type": "G",
+    "longitude": -17.341983,
+    "access": 1,
+    "score": 9.0,
+    "address": "Ketilsbraut, 640 H\u00fasav\u00edk",
+    "latitude": 66.046848,
+    "id": 122985,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Fitjar/Kr\u00f3nan",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 488265, "power": 0 },
+          { "connector": 13, "id": 488266, "power": 0 }
+        ],
+        "id": 71173
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/52311",
+    "icon_type": "Y",
+    "longitude": -22.54479,
+    "access": 1,
+    "score": 10.0,
+    "address": "Fitjar, Reykjanesb\u00e6r, Iceland",
+    "latitude": 63.972821,
+    "id": 52311,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Stj\u00f3rns\u00fdsluh\u00fasi\u00f0 \u00ed B\u00fa\u00f0ardal",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 516830, "power": 0 }],
+        "id": 253035
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/136639",
+    "icon_type": "G",
+    "longitude": -21.764518,
+    "access": 1,
+    "score": 9.0,
+    "address": "Mi\u00f0braut 11 B\u00fa\u00f0ardal",
+    "latitude": 65.109036,
+    "id": 136639,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - H\u00fasav\u00edk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 13, "id": 606540, "power": 0 }],
+        "id": 325899
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 606541, "power": 0 }],
+        "id": 325900
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 606542, "power": 0 }],
+        "id": 325901
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/163027",
+    "icon_type": "Y",
+    "longitude": -17.344325,
+    "access": 1,
+    "address": "H\u00e9\u00f0insbraut, H\u00fasav\u00edk, \u00cdsland",
+    "latitude": 66.048754,
+    "id": 163027,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "\u00dej\u00f3nustumi\u00f0st\u00f6\u00f0",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 454960, "power": 0 }],
+        "id": 213413
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121142",
+    "icon_type": "G",
+    "longitude": -14.838108,
+    "access": 1,
+    "address": "Hamrahl\u00ed\u00f0 x H\u00e1holt, 690 Vopnafir\u00f0i, Iceland",
+    "latitude": 65.75407,
+    "id": 121142,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Smyrlabjarga\u00e1rvirkjun",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 457659, "power": 0 }],
+        "id": 215227
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121947",
+    "icon_type": "G",
+    "longitude": -15.714443,
+    "access": 1,
+    "address": "Iceland,hotel smyrlabj\u00f6rg",
+    "latitude": 64.225203,
+    "id": 121947,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Laugarfell \u00cd Flj\u00f3tsdal",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 598843, "power": 0 }],
+        "id": 319727
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/160718",
+    "icon_type": "G",
+    "longitude": -15.351853,
+    "access": 1,
+    "address": "Laugarfell, Austurlei\u00f0, \u00cdsland",
+    "latitude": 64.885781,
+    "id": 160718,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Skj\u00f6ld\u00f3lfssta\u00f0ir",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 549744, "power": 0 }],
+        "id": 280230
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 549743, "power": 0 }],
+        "id": 280229
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/146217",
+    "icon_type": "G",
+    "longitude": -15.118796,
+    "access": 1,
+    "address": "Hringvegur, 701 Skj\u00f6ld\u00f3lfssta\u00f0ir, \u00cdsland",
+    "latitude": 65.316495,
+    "id": 146217,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Dj\u00fapivogur",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 506726, "power": 0 },
+          { "connector": 3, "id": 506727, "power": 0 },
+          { "connector": 13, "id": 506728, "power": 0 }
+        ],
+        "id": 246980
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/134375",
+    "icon_type": "Y",
+    "longitude": -14.283699,
+    "access": 1,
+    "address": "Vogaland 2, Dj\u00fapivogur",
+    "latitude": 64.656419,
+    "id": 134375,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - St\u00f6\u00f0varfj\u00f6r\u00f0ur",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 13, "id": 584397, "power": 0 },
+          { "connector": 3, "id": 506732, "power": 0 }
+        ],
+        "id": 246981
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/134376",
+    "icon_type": "Y",
+    "longitude": -13.875179,
+    "access": 1,
+    "address": "Fjar\u00f0arbraut 41",
+    "latitude": 64.833304,
+    "id": 134376,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "H\u00f3tel Bjarkarlundur, Stoppu-Stu\u00f0",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 478064, "power": 0 }],
+        "id": 228386
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/126935",
+    "icon_type": "G",
+    "longitude": -22.103842,
+    "access": 1,
+    "address": "Bjarkalundi",
+    "latitude": 65.556156,
+    "id": 126935,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "H\u00e1afell Goat farm",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 599222, "power": 0 }],
+        "id": 320015
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/160822",
+    "icon_type": "G",
+    "longitude": -21.251774,
+    "access": 1,
+    "address": "Hv\u00edt\u00e1rs\u00ed\u00f0uvegur, \u00cdsland",
+    "latitude": 64.709458,
+    "id": 160822,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Vi\u00f0 Vatnsskar\u00f0",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 454948, "power": 0 }],
+        "id": 213404
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121137",
+    "icon_type": "G",
+    "longitude": -19.801152,
+    "access": 1,
+    "address": "H\u00fanaver, Iceland ",
+    "latitude": 65.522935,
+    "id": 121137,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Borg \u00ed Gr\u00edmsnesi",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 539383, "power": 0 },
+          { "connector": 13, "id": 539384, "power": 0 },
+          { "connector": 7, "id": 539385, "power": 0 }
+        ],
+        "id": 271626
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/143212",
+    "icon_type": "Y",
+    "longitude": -20.769083,
+    "access": 1,
+    "address": "Borgarvegur, 801 Borg \u00ed Gr\u00edmsnesi, \u00cdsland",
+    "latitude": 64.075388,
+    "id": 143212,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Stoppustu\u00f0 R\u00e1\u00f0h\u00fas Fjallabygg\u00f0ar",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 420071, "power": 0 },
+          { "connector": 7, "id": 420072, "power": 0 }
+        ],
+        "id": 190957
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/112040",
+    "icon_type": "G",
+    "longitude": -18.908917,
+    "access": 1,
+    "score": 9.0,
+    "address": "A\u00f0algata 25\u201327, 580\u200e Siglufjordhur, Iceland",
+    "latitude": 66.150382,
+    "id": 112040,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Hraunsnef Sveitah\u00f3tel",
+    "stations": [
+      {
+        "outlets": [{ "connector": 10, "id": 610705, "power": 0 }],
+        "id": 329082
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/164315",
+    "icon_type": "G",
+    "longitude": -21.507289,
+    "access": 1,
+    "address": "311 Borgarnes",
+    "latitude": 64.787621,
+    "id": 164315,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - N1 Sau\u00f0\u00e1rkr\u00f3ki",
+    "stations": [
+      {
+        "outlets": [{ "connector": 3, "id": 593932, "power": 0 }],
+        "id": 315642
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 593933, "power": 0 }],
+        "id": 315643
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/159535",
+    "icon_type": "Y",
+    "longitude": -19.636084,
+    "access": 1,
+    "address": "Skagfir\u00f0ingabraut 49, Sau\u00f0\u00e1rkr\u00f3kur, Iceland",
+    "latitude": 65.739986,
+    "id": 159535,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Sveitarf\u00e9lagi\u00f0 Skagafj\u00f6r\u00f0ur R\u00e1\u00f0h\u00fasinu",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 460696, "power": 0 }],
+        "id": 216758
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/122556",
+    "icon_type": "G",
+    "longitude": -19.64672,
+    "access": 1,
+    "score": 4.9,
+    "address": "Skagfir\u00f0ingabraut 21",
+    "latitude": 65.747799,
+    "id": 122556,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Lagarfossvirkjun",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 455159, "power": 0 }],
+        "id": 213535
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121202",
+    "icon_type": "G",
+    "longitude": -14.364388,
+    "access": 1,
+    "address": "Lagarfossvegur, Iceland",
+    "latitude": 65.506514,
+    "id": 121202,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Vi\u00f0 sundlaugina og tjaldst\u00e6\u00f0i\u00f0",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 468461, "power": 0 }],
+        "id": 221798
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/124515",
+    "icon_type": "G",
+    "longitude": -21.685306,
+    "access": 1,
+    "address": "Hafnarbraut 13, H\u00f3lmav\u00edk, Iceland",
+    "latitude": 65.701858,
+    "id": 124515,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Laugaland",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 464470, "power": 0 }],
+        "id": 219290
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/123500",
+    "icon_type": "G",
+    "longitude": -20.416547,
+    "access": 1,
+    "address": "Southern Region",
+    "latitude": 63.91631,
+    "id": 123500,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Bragdavellir Barn Restaurant",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 589547, "power": 0 }],
+        "id": 312163
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/158701",
+    "icon_type": "G",
+    "longitude": -14.515598,
+    "access": 1,
+    "address": "Brag\u00f0av\u00f6llum 765 Djupivogur",
+    "latitude": 64.644205,
+    "id": 158701,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "H\u00f3tel Flj\u00f3tshl\u00ed\u00f0, Sm\u00e1rat\u00fan farm",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 662388, "power": 0 }],
+        "id": 369811
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/179465",
+    "icon_type": "G",
+    "longitude": -20.013257,
+    "access": 1,
+    "address": "Flj\u00f3tshl\u00ed\u00f0arvegur",
+    "latitude": 63.724471,
+    "id": 179465,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Akranes/Kr\u00f3nan",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 488269, "power": 0 },
+          { "connector": 13, "id": 488270, "power": 0 }
+        ],
+        "id": 92483
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/66079",
+    "icon_type": "Y",
+    "longitude": -22.070852,
+    "access": 1,
+    "score": 9.0,
+    "address": "Dalbraut 1 Akranes Iceland",
+    "latitude": 64.321296,
+    "id": 66079,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "\u00c1sgar\u00f0i Kj\u00f3s",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 459582, "power": 0 }],
+        "id": 193244
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/112991",
+    "icon_type": "G",
+    "longitude": -21.592772,
+    "access": 1,
+    "address": "\u00c1sgar\u00f0i Kj\u00f3s, 276 Kj\u00f3sarhreppur",
+    "latitude": 64.341777,
+    "id": 112991,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Stoppust\u00f6\u00f0 Sundlaugin \u00deorl\u00e1ksh\u00f6fn ",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 442380, "power": 0 }],
+        "id": 205782
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/118080",
+    "icon_type": "G",
+    "longitude": -21.382505,
+    "access": 1,
+    "address": "Hafnarberg 43, \u00deorl\u00e1ksh\u00f6fn ",
+    "latitude": 63.85247,
+    "id": 118080,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Selfoss/Ol\u00eds",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 488258, "power": 0 },
+          { "connector": 3, "id": 488259, "power": 0 },
+          { "connector": 13, "id": 488260, "power": 0 }
+        ],
+        "id": 71384
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/52506",
+    "icon_type": "Y",
+    "longitude": -21.008654,
+    "access": 1,
+    "score": 10.0,
+    "address": "Arnarbergi, 800 Selfoss, Iceland",
+    "latitude": 63.943784,
+    "id": 52506,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Hverager\u00f0i",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 526897, "power": 0 },
+          { "connector": 7, "id": 526898, "power": 0 },
+          { "connector": 13, "id": 526899, "power": 0 }
+        ],
+        "id": 261374
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 526900, "power": 0 }],
+        "id": 261375
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 526901, "power": 0 }],
+        "id": 261376
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/139745",
+    "icon_type": "Y",
+    "longitude": -21.184999,
+    "access": 1,
+    "score": 9.0,
+    "address": "Austurm\u00f6rk 22, Hverager\u00f0i",
+    "latitude": 63.995787,
+    "id": 139745,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Hellishei\u00f0arvirkjun",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 488261, "power": 0 },
+          { "connector": 13, "id": 488262, "power": 0 }
+        ],
+        "id": 141860
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/89884",
+    "icon_type": "Y",
+    "longitude": -21.401779,
+    "access": 1,
+    "score": 5.4,
+    "address": "Hamragilsvegur, 110\u200e Sveitarf\u00e9lagi\u00f0 \u00d6lfus, Iceland",
+    "latitude": 64.037156,
+    "id": 89884,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Orkan \u00deorl\u00e1ksh\u00f6fn",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 551347, "power": 0 },
+          { "connector": 13, "id": 551348, "power": 0 }
+        ],
+        "id": 281662
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/146532",
+    "icon_type": "Y",
+    "longitude": -21.377984,
+    "access": 1,
+    "address": "\u00d3seyrarbraut 22, Thorlakshofn, Iceland",
+    "latitude": 63.858755,
+    "id": 146532,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Skei\u00f0fossvirkjun ",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 455391, "power": 0 }],
+        "id": 213689
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121275",
+    "icon_type": "G",
+    "longitude": -19.011154,
+    "access": 1,
+    "address": "iceland",
+    "latitude": 66.006573,
+    "id": 121275,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Stoppustu\u00f0 - \u00cd\u00fer\u00f3ttami\u00f0st\u00f6\u00f0in \u00e1 Dalv\u00edk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 571502, "power": 0 }],
+        "id": 299286
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/155174",
+    "icon_type": "G",
+    "longitude": -18.535709,
+    "access": 1,
+    "address": "Svarfa\u00f0arbraut 34, 620 Dalv\u00edk",
+    "latitude": 65.969892,
+    "id": 155174,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "F\u00e9lagsheimili\u00f0 Borg Gr\u00edmsnesi",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 459507, "power": 0 }],
+        "id": 216177
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/122364",
+    "icon_type": "G",
+    "longitude": -20.768409,
+    "access": 1,
+    "score": 2.1,
+    "address": "Borg, 801 selfoss",
+    "latitude": 64.075136,
+    "id": 122364,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "S\u00fa\u00f0av\u00edk ",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 454944, "power": 0 }],
+        "id": 213400
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121133",
+    "icon_type": "G",
+    "longitude": -22.989922,
+    "access": 1,
+    "address": "Grundarstr\u00e6ti 3, 420 S\u00fa\u00f0av\u00edk, Iceland",
+    "latitude": 66.026097,
+    "id": 121133,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Ion Luxury Adventure Hotel",
+    "stations": [
+      {
+        "outlets": [{ "connector": 2, "id": 317063, "power": 0 }],
+        "id": 122572
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/83043",
+    "icon_type": "G",
+    "longitude": -21.253037,
+    "access": 1,
+    "address": "Nesjavellir, 801, Iceland",
+    "latitude": 64.117106,
+    "id": 83043,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Vi\u00f0 Vogab\u00e6jarh\u00f6llina",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 520573, "power": 0 }],
+        "id": 256231
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/137861",
+    "icon_type": "G",
+    "longitude": -22.380613,
+    "access": 1,
+    "address": "Hafnarg\u00f6tu 17, 190 Vogum",
+    "latitude": 63.984945,
+    "id": 137861,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Eyrabakki",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 603243, "power": 0 }],
+        "id": 323319
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 603244, "power": 0 }],
+        "id": 323320
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/162011",
+    "icon_type": "G",
+    "longitude": -21.158966,
+    "access": 1,
+    "address": "B\u00fa\u00f0arst\u00edgur 19B, 820 Eyrarbakki, Iceland",
+    "latitude": 63.865163,
+    "id": 162011,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "F\u00e9lagsheimili Hrunamanna",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 459588, "power": 0 }],
+        "id": 213510
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121193",
+    "icon_type": "G",
+    "longitude": -20.31945,
+    "access": 1,
+    "score": 9.0,
+    "address": "Langholtsvegi, 845 Fl\u00fa\u00f0um, Iceland",
+    "latitude": 64.130341,
+    "id": 121193,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON hra\u00f0hle\u00f0sla, Mosfellsb\u00e6",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 647690, "power": 0 }],
+        "id": 358375
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 647689, "power": 0 }],
+        "id": 358374
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 647688, "power": 0 }],
+        "id": 358373
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/175134",
+    "icon_type": "Y",
+    "longitude": -21.695256,
+    "access": 1,
+    "address": "H\u00e1holt 11, Mosfellsb\u00e6r, \u00cdsland",
+    "latitude": 64.165746,
+    "id": 175134,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Orkusalan Stoppustu\u00f0 Hl\u00ed\u00f0arfjalli",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 427334, "power": 0 },
+          { "connector": 7, "id": 427335, "power": 0 }
+        ],
+        "id": 195888
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/114076",
+    "icon_type": "G",
+    "longitude": -18.210639,
+    "access": 1,
+    "address": "Hl\u00ed\u00f0arfjallsvegur, 603\u200e Akureyri, Iceland",
+    "latitude": 65.662824,
+    "id": 114076,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "F\u00e9lagsheimili\u00f0 \u00c1rnes",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 466437, "power": 0 }],
+        "id": 220471
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/123950",
+    "icon_type": "G",
+    "longitude": -20.251815,
+    "access": 1,
+    "address": "\u00c1rnesi, 801 Selfossi",
+    "latitude": 64.042292,
+    "id": 123950,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Sundlaugin Stokkseyri",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 667702, "power": 0 }],
+        "id": 373905
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 667701, "power": 0 }],
+        "id": 373904
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/181065",
+    "icon_type": "G",
+    "longitude": -21.063567,
+    "access": 1,
+    "address": "Hafnargata 1, 825 Stokkseyri, Iceland",
+    "latitude": 63.837858,
+    "id": 181065,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Stoppustu\u00f0 Hellu",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 594534, "power": 0 }],
+        "id": 316166
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/159720",
+    "icon_type": "G",
+    "longitude": -20.401501,
+    "access": 1,
+    "address": "Mi\u00f0vangur, 850 Hella, Iceland",
+    "latitude": 63.834527,
+    "id": 159720,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00derastarlundur ",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 480570, "power": 0 }],
+        "id": 227381
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/126531",
+    "icon_type": "G",
+    "longitude": -20.973389,
+    "access": 1,
+    "address": "\u00derastarlundur",
+    "latitude": 64.006099,
+    "id": 126531,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Stoppustu\u00f0 - Jar\u00f0b\u00f6\u00f0in vi\u00f0 M\u00fdvatn",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 565771, "power": 0 }],
+        "id": 294425
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/153469",
+    "icon_type": "G",
+    "longitude": -16.84782,
+    "access": 1,
+    "address": "Jar\u00f0ba\u00f0sh\u00f3lar",
+    "latitude": 65.631353,
+    "id": 153469,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00cdsorka - Ol\u00eds",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 666520, "power": 0 }],
+        "id": 372965
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 666519, "power": 0 }],
+        "id": 372964
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 666518, "power": 0 }],
+        "id": 372963
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/180709",
+    "icon_type": "Y",
+    "longitude": -15.208915,
+    "access": 1,
+    "address": "Mi\u00f0t\u00fan 24, H\u00f6fn \u00ed Hornafir\u00f0i, Iceland",
+    "latitude": 64.255536,
+    "id": 180709,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "\u00cd\u00fer\u00f3ttami\u00f0st\u00f6\u00f0in Gar\u00f0i",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 455151, "power": 0 }],
+        "id": 213528
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121199",
+    "icon_type": "G",
+    "longitude": -22.655012,
+    "access": 1,
+    "address": "Gar\u00f0braut 94, Iceland",
+    "latitude": 64.071844,
+    "id": 121199,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Fr\u00edkirkjuvegur",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 485635, "power": 0 },
+          { "connector": 13, "id": 485636, "power": 0 }
+        ],
+        "id": 149726
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/60367",
+    "icon_type": "Y",
+    "longitude": -21.939394,
+    "access": 1,
+    "score": 10.0,
+    "address": "Fr\u00edkirkjuvegur 101 Reykjav\u00edk Iceland",
+    "latitude": 64.144577,
+    "id": 60367,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - B\u00e6jarh\u00e1ls",
+    "stations": [
+      {
+        "outlets": [{ "connector": 3, "id": 658864, "power": 0 }],
+        "id": 367102
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 658863, "power": 0 }],
+        "id": 367101
+      },
+      {
+        "outlets": [
+          { "connector": 13, "id": 658862, "power": 0 },
+          { "connector": 3, "id": 658861, "power": 0 }
+        ],
+        "id": 367100
+      },
+      {
+        "outlets": [
+          { "connector": 3, "id": 485623, "power": 0 },
+          { "connector": 13, "id": 485624, "power": 0 }
+        ],
+        "id": 65069
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/46666",
+    "icon_type": "Y",
+    "longitude": -21.800327,
+    "access": 1,
+    "score": 8.8,
+    "address": "B\u00e6jarh\u00e1ls, Reykjav\u00edk, Iceland",
+    "latitude": 64.119797,
+    "id": 46666,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Gr\u00edms\u00e1rvirkjun",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 455761, "power": 0 }],
+        "id": 213922
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121382",
+    "icon_type": "G",
+    "longitude": -14.534225,
+    "access": 1,
+    "address": "iceland",
+    "latitude": 65.139332,
+    "id": 121382,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Sm\u00e1ralind",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 485631, "power": 0 },
+          { "connector": 3, "id": 485632, "power": 0 },
+          { "connector": 13, "id": 485633, "power": 0 }
+        ],
+        "id": 194613
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/46664",
+    "icon_type": "Y",
+    "longitude": -21.884623,
+    "access": 1,
+    "score": 8.0,
+    "address": "Hagasm\u00e1ri 1, 201 K\u00f3pavogur, Iceland",
+    "latitude": 64.100418,
+    "id": 46664,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "R\u00e1\u00f0h\u00fas Reykjanesb\u00e6jar",
+    "stations": [
+      {
+        "outlets": [{ "connector": 10, "id": 314203, "power": 0 }],
+        "id": 121396
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/82523",
+    "icon_type": "G",
+    "longitude": -22.557557,
+    "access": 1,
+    "address": "Tjarnargata, 235\u200e Keflav\u00edk, Iceland",
+    "latitude": 64.002885,
+    "id": 82523,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00cdsorka, Gufunesi",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 480575, "power": 0 },
+          { "connector": 10, "id": 480576, "power": 0 }
+        ],
+        "id": 183133
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480577, "power": 0 },
+          { "connector": 10, "id": 480578, "power": 0 }
+        ],
+        "id": 183134
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480579, "power": 0 },
+          { "connector": 10, "id": 480580, "power": 0 }
+        ],
+        "id": 183135
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480581, "power": 0 },
+          { "connector": 10, "id": 480582, "power": 0 }
+        ],
+        "id": 183136
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480583, "power": 0 },
+          { "connector": 10, "id": 480584, "power": 0 }
+        ],
+        "id": 183137
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480585, "power": 0 },
+          { "connector": 10, "id": 480586, "power": 0 }
+        ],
+        "id": 183138
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480587, "power": 0 },
+          { "connector": 10, "id": 480588, "power": 0 }
+        ],
+        "id": 183139
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480589, "power": 0 },
+          { "connector": 10, "id": 480590, "power": 0 }
+        ],
+        "id": 183140
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 480591, "power": 0 },
+          { "connector": 10, "id": 480592, "power": 0 }
+        ],
+        "id": 183141
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/109016",
+    "icon_type": "G",
+    "longitude": -21.813361,
+    "access": 1,
+    "address": "Gufunesvegur, 112\u200e Reykjav\u00edk, Iceland",
+    "latitude": 64.152473,
+    "id": 109016,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Keilir - Atlantic Center of Excellence",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 459665, "power": 0 }],
+        "id": 186666
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 459664, "power": 0 }],
+        "id": 186668
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/110370",
+    "icon_type": "G",
+    "longitude": -22.571069,
+    "access": 1,
+    "address": "Gr\u00e6n\u00e1sbraut 910, 235, Iceland",
+    "latitude": 63.969006,
+    "id": 110370,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Miklubraut/Orkan/10-11",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 485628, "power": 0 },
+          { "connector": 3, "id": 485629, "power": 0 },
+          { "connector": 13, "id": 485630, "power": 0 }
+        ],
+        "id": 126075
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/47081",
+    "icon_type": "Y",
+    "longitude": -21.892736,
+    "access": 1,
+    "score": 10.0,
+    "address": "Miklabraut Reykjav\u00edk, Iceland",
+    "latitude": 64.13208,
+    "id": 47081,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Ol\u00eds \u00c1lfheimum",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 647684, "power": 0 }],
+        "id": 358370
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 647683, "power": 0 }],
+        "id": 358369
+      },
+      {
+        "outlets": [{ "connector": 13, "id": 647685, "power": 0 }],
+        "id": 358371
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/175132",
+    "icon_type": "Y",
+    "longitude": -21.866453,
+    "access": 1,
+    "address": "Su\u00f0urlandsbraut, Reykjav\u00edk, \u00cdsland",
+    "latitude": 64.132123,
+    "id": 175132,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - S\u00e6varh\u00f6f\u00f0a/BL",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 485625, "power": 0 },
+          { "connector": 3, "id": 485626, "power": 0 },
+          { "connector": 13, "id": 485627, "power": 0 }
+        ],
+        "id": 65068
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/46665",
+    "icon_type": "Y",
+    "longitude": -21.838691,
+    "access": 1,
+    "score": 8.2,
+    "address": "S\u00e6varh\u00f6f\u00f0i, 110 Reykjav\u00edk, Iceland",
+    "latitude": 64.125421,
+    "id": 46665,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON - Orkan, Su\u00f0urfell",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 658844, "power": 0 }],
+        "id": 367090
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 658843, "power": 0 }],
+        "id": 367089
+      },
+      {
+        "outlets": [
+          { "connector": 13, "id": 658842, "power": 0 },
+          { "connector": 3, "id": 658841, "power": 0 }
+        ],
+        "id": 367088
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/154828",
+    "icon_type": "Y",
+    "longitude": -21.831186,
+    "access": 1,
+    "address": "Su\u00f0urfell 4, Reykjav\u00edk, Iceland",
+    "latitude": 64.10147,
+    "id": 154828,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Golfkl\u00fabburinn Oddur",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 489733, "power": 0 }],
+        "id": 231657
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 489734, "power": 0 }],
+        "id": 231682
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/128195",
+    "icon_type": "G",
+    "longitude": -21.896492,
+    "access": 1,
+    "address": "Golfkl\u00faburinn Oddur",
+    "latitude": 64.059761,
+    "id": 128195,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Vi\u00f0 Pollinn",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 413202, "power": 0 }],
+        "id": 186423
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 413203, "power": 0 }],
+        "id": 186424
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/110282",
+    "icon_type": "G",
+    "longitude": -23.119818,
+    "access": 1,
+    "address": "Silfurtorgi 2, 400 \u00cdsafir\u00f0i ",
+    "latitude": 66.072721,
+    "id": 110282,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Hla\u00f0a \u00d6gurhvarf",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 472452, "power": 0 }],
+        "id": 211930
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472451, "power": 0 }],
+        "id": 213245
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/120592",
+    "icon_type": "G",
+    "longitude": -21.801826,
+    "access": 1,
+    "score": 9.0,
+    "address": "\u00d6gurhvarf 8, 203\u200e Kopavogur, Iceland",
+    "latitude": 64.096266,
+    "id": 120592,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Kr\u00f3nan Hafnarfj\u00f6r\u00f0ur",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 417435, "power": 0 },
+          { "connector": 7, "id": 417436, "power": 0 }
+        ],
+        "id": 189231
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 417437, "power": 0 },
+          { "connector": 7, "id": 417438, "power": 0 }
+        ],
+        "id": 189232
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/92924",
+    "icon_type": "G",
+    "longitude": -21.941919,
+    "access": 1,
+    "address": "Flatahraun 13, 220 Hafnarfj\u00f6r\u00f0ur",
+    "latitude": 64.076194,
+    "id": 92924,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Rj\u00fakandavirkjun",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 456361, "power": 0 }],
+        "id": 214326
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121545",
+    "icon_type": "G",
+    "longitude": -23.687811,
+    "access": 1,
+    "address": "iceland ",
+    "latitude": 64.888214,
+    "id": 121545,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "H\u00e1sk\u00f3linn \u00ed Reykjav\u00edk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 10, "id": 568869, "power": 0 }],
+        "id": 297008
+      },
+      {
+        "outlets": [{ "connector": 10, "id": 568870, "power": 0 }],
+        "id": 297009
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/154366",
+    "icon_type": "G",
+    "longitude": -21.924578,
+    "access": 1,
+    "address": "Menntavegur 1, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.124528,
+    "id": 154366,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Gar\u00f0atorg 7b - b\u00edlakjallari",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 497581, "power": 0 },
+          { "connector": 3, "id": 497582, "power": 0 },
+          { "connector": 13, "id": 497583, "power": 0 }
+        ],
+        "id": 239885
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/131644",
+    "icon_type": "Y",
+    "longitude": -21.920874,
+    "access": 1,
+    "score": 9.0,
+    "address": "Gar\u00f0atorg 7b",
+    "latitude": 64.088865,
+    "id": 131644,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - IKEA",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 485637, "power": 0 },
+          { "connector": 3, "id": 485638, "power": 0 },
+          { "connector": 13, "id": 485639, "power": 0 }
+        ],
+        "id": 69860
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/51229",
+    "icon_type": "Y",
+    "longitude": -21.916726,
+    "access": 1,
+    "score": 8.4,
+    "address": "Kaupt\u00fan 4, 210 Gar\u00f0ab\u00e6r, Iceland",
+    "latitude": 64.074528,
+    "id": 51229,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Sundh\u00f6ll Selfoss",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 595378, "power": 0 }],
+        "id": 316822
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 595379, "power": 0 }],
+        "id": 316823
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/159941",
+    "icon_type": "G",
+    "longitude": -20.997491,
+    "access": 1,
+    "address": "Bankavegur, 800 Selfoss, Iceland",
+    "latitude": 63.936023,
+    "id": 159941,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Akureyri/Hof",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 488220, "power": 0 },
+          { "connector": 13, "id": 488221, "power": 0 }
+        ],
+        "id": 137088
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/88189",
+    "icon_type": "Y",
+    "longitude": -18.086854,
+    "access": 1,
+    "score": 9.0,
+    "address": "12, 600 Akureyri, Iceland",
+    "latitude": 65.684063,
+    "id": 88189,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Akureyri/Gler\u00e1rtorg",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 3, "id": 488222, "power": 0 },
+          { "connector": 13, "id": 488223, "power": 0 }
+        ],
+        "id": 137089
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/88190",
+    "icon_type": "Y",
+    "longitude": -18.099627,
+    "access": 1,
+    "score": 10.0,
+    "address": "Gler\u00e1reyrar 1, 600 Akureyri, Iceland",
+    "latitude": 65.687699,
+    "id": 88190,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "Stoppust\u00f6\u00f0 Flj\u00f3tsdalsh\u00e9ra\u00f0",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 454951, "power": 0 }],
+        "id": 207002
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/118579",
+    "icon_type": "G",
+    "longitude": -14.395961,
+    "access": 1,
+    "score": 9.0,
+    "address": "Tjarnarbraut 26, 700\u200e Egilssta\u00f0ir, Iceland",
+    "latitude": 65.267167,
+    "id": 118579,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "HB Grandi",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 460010, "power": 0 }],
+        "id": 200398
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 518643, "power": 0 }],
+        "id": 254532
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 518645, "power": 0 }],
+        "id": 254534
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 518644, "power": 0 }],
+        "id": 254533
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/115934",
+    "icon_type": "G",
+    "longitude": -21.937135,
+    "access": 1,
+    "address": "Nor\u00f0urgar\u00f0ur",
+    "latitude": 64.156367,
+    "id": 115934,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Samskip hf.",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 10, "id": 259580, "power": 0 },
+          { "connector": 2, "id": 259581, "power": 0 }
+        ],
+        "id": 105742
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/72770",
+    "icon_type": "G",
+    "longitude": -21.842319,
+    "access": 1,
+    "address": "Kjalarvogur 1, 104 Reykjav\u00edk",
+    "latitude": 64.137924,
+    "id": 72770,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00dej\u00f3nustumi\u00f0st\u00f6\u00f0 Hfj",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 667697, "power": 0 }],
+        "id": 373900
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 667696, "power": 0 }],
+        "id": 373899
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 667695, "power": 0 }],
+        "id": 373898
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 667694, "power": 0 }],
+        "id": 373897
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/181064",
+    "icon_type": "G",
+    "longitude": -21.984043,
+    "access": 1,
+    "address": "Nor\u00f0urhella 2, Hafnarfj\u00f6r\u00f0ur, Iceland",
+    "latitude": 64.044957,
+    "id": 181064,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a, Kleppi",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 598853, "power": 0 }],
+        "id": 319733
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 598854, "power": 0 }],
+        "id": 319734
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/160722",
+    "icon_type": "G",
+    "longitude": -21.849227,
+    "access": 1,
+    "address": "Kleppsgar\u00f0ar, Reykjav\u00edk, \u00cdsland",
+    "latitude": 64.145203,
+    "id": 160722,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00cd\u00fer\u00f3ttami\u00f0st\u00f6\u00f0in a\u00f0 Varm\u00e1 - \u00cdsOrka",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 480571, "power": 0 }],
+        "id": 225029
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 480572, "power": 0 }],
+        "id": 224831
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/125633",
+    "icon_type": "G",
+    "longitude": -21.689814,
+    "access": 1,
+    "address": "Varm\u00e1, Mosfellsb\u00e6r",
+    "latitude": 64.169871,
+    "id": 125633,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "V\u00ednb\u00fa\u00f0in Hei\u00f0r\u00fan",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 666386, "power": 0 },
+          { "connector": 7, "id": 666385, "power": 0 }
+        ],
+        "id": 372848
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 666384, "power": 0 },
+          { "connector": 7, "id": 666383, "power": 0 }
+        ],
+        "id": 372847
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/180683",
+    "icon_type": "G",
+    "longitude": -21.791137,
+    "access": 1,
+    "address": "Stu\u00f0lah\u00e1ls 2, Reykjav\u00edk, \u00cdsland",
+    "latitude": 64.11997,
+    "id": 180683,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "L\u00e1gafellslaug, \u00cdsOrka",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 480573, "power": 0 }],
+        "id": 225030
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 480574, "power": 0 }],
+        "id": 224830
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/125632",
+    "icon_type": "G",
+    "longitude": -21.725276,
+    "access": 1,
+    "address": "L\u00e6kjarhli\u00f0 1a",
+    "latitude": 64.164664,
+    "id": 125632,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "B\u00edlast\u00e6\u00f0ah\u00fas Tra\u00f0arkoti",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 604720, "power": 0 }],
+        "id": 324421
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 604721, "power": 0 }],
+        "id": 324422
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 604722, "power": 0 }],
+        "id": 324423
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 604723, "power": 0 }],
+        "id": 324424
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/154332",
+    "icon_type": "G",
+    "longitude": -21.930782,
+    "access": 1,
+    "address": "Tra\u00f0arkot, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.145915,
+    "id": 154332,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00cd\u00fer\u00f3ttami\u00f0st\u00f6\u00f0in",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 454947, "power": 0 }],
+        "id": 213403
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121136",
+    "icon_type": "G",
+    "longitude": -20.283276,
+    "access": 1,
+    "score": 9.0,
+    "address": "Melabraut 2, Bl\u00f6ndu\u00f3s, Island",
+    "latitude": 65.659879,
+    "id": 121136,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "StoppuStu\u00f0 Hornafjar\u00f0ar, vi\u00f0 Sindrah\u00fasi\u00f0 ",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 487605, "power": 0 }],
+        "id": 234478
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/129392",
+    "icon_type": "G",
+    "longitude": -15.211417,
+    "access": 1,
+    "address": "Hafnarbraut 25, 780 H\u00f6fn \u00ed Hornafir\u00f0i",
+    "latitude": 64.252767,
+    "id": 129392,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "EVEN Elko",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 346120, "power": 0 },
+          { "connector": 7, "id": 274094, "power": 0 }
+        ],
+        "id": 78990
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/57246",
+    "icon_type": "G",
+    "longitude": -21.873264,
+    "access": 1,
+    "score": 7.6,
+    "address": "Sk\u00f3garlind 1, 201 K\u00f3pavogur",
+    "latitude": 64.101074,
+    "id": 57246,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON-hla\u00f0a, Dalv\u00edk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 2, "id": 639697, "power": 0 }],
+        "id": 352204
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 639696, "power": 0 }],
+        "id": 352203
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/172774",
+    "icon_type": "G",
+    "longitude": -18.528574,
+    "access": 1,
+    "address": "22, Hafnarbraut, 620 Dalv\u00edk, \u00cdsland",
+    "latitude": 65.970015,
+    "id": 172774,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Orkusalan Stoppustu\u00f0 B\u00f3nus",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 419748, "power": 0 },
+          { "connector": 7, "id": 419749, "power": 0 }
+        ],
+        "id": 190685
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/111927",
+    "icon_type": "G",
+    "longitude": -21.189103,
+    "access": 1,
+    "address": "Sunnum\u00f6rk, 810\u200e Hverager\u00f0i, Iceland",
+    "latitude": 63.995499,
+    "id": 111927,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Skrifstofa Orkus\u00f6lunnar, StoppuStu\u00f0",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 488219, "power": 0 }],
+        "id": 213405
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121138",
+    "icon_type": "G",
+    "longitude": -18.101516,
+    "access": 1,
+    "address": "\u00d3seyri 9, 603 Akureyri, Iceland ",
+    "latitude": 65.693988,
+    "id": 121138,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Hekla nota\u00f0ir b\u00edlar",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 471401, "power": 0 }],
+        "id": 223747
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472849, "power": 0 }],
+        "id": 224742
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472850, "power": 0 }],
+        "id": 224743
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472851, "power": 0 }],
+        "id": 224744
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472852, "power": 0 }],
+        "id": 224745
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472853, "power": 0 }],
+        "id": 224746
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/125341",
+    "icon_type": "G",
+    "longitude": -21.781892,
+    "access": 1,
+    "address": "Kletth\u00e1ls 13, Reykjav\u00edk",
+    "latitude": 64.114927,
+    "id": 125341,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - \u00cdsafir\u00f0i",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 616199, "power": 0 }],
+        "id": 333768
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 616198, "power": 0 },
+          { "connector": 13, "id": 616197, "power": 0 },
+          { "connector": 3, "id": 616196, "power": 0 }
+        ],
+        "id": 333767
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/165868",
+    "icon_type": "Y",
+    "longitude": -23.124083,
+    "access": 1,
+    "address": "Pollgata, 400 \u00cdsafj\u00f6r\u00f0ur, \u00cdsland",
+    "latitude": 66.074586,
+    "id": 165868,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "ON Hla\u00f0a, Landakotssp\u00edtali",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 598848, "power": 0 }],
+        "id": 319729
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 598849, "power": 0 }],
+        "id": 319730
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/160720",
+    "icon_type": "G",
+    "longitude": -21.949751,
+    "access": 1,
+    "address": "32 Tungata, 32, 101 Reykjav\u00edk, \u00cdsland",
+    "latitude": 64.148749,
+    "id": 160720,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00d6ssur hf.",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 472444, "power": 0 }],
+        "id": 106037
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472445, "power": 0 }],
+        "id": 142227
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472446, "power": 0 }],
+        "id": 142228
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472447, "power": 0 }],
+        "id": 142229
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/72949",
+    "icon_type": "G",
+    "longitude": -21.800019,
+    "access": 1,
+    "score": 7.4,
+    "address": "Grj\u00f3th\u00e1ls 5, 110 Reykjav\u00edk",
+    "latitude": 64.123428,
+    "id": 72949,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "K\u00f6ggull",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 656601, "power": 0 }],
+        "id": 365368
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/177828",
+    "icon_type": "G",
+    "longitude": -21.819685,
+    "access": 1,
+    "address": "Funah\u00f6f\u00f0i 17a, 110 Reykjav\u00edk, Iceland",
+    "latitude": 64.128507,
+    "id": 177828,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Camping/Golf Club",
+    "stations": [
+      {
+        "outlets": [{ "connector": 15, "id": 456894, "power": 0 }],
+        "id": 214649
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 456895, "power": 0 }],
+        "id": 214650
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 456896, "power": 0 }],
+        "id": 214651
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121695",
+    "icon_type": "G",
+    "longitude": -22.731938,
+    "access": 1,
+    "address": "A\u00f0algata, 340\u200e Stykkish\u00f3lmur, Island",
+    "latitude": 65.070696,
+    "id": 121695,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Stoppustu\u00f0 Dalv\u00edk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 603023, "power": 0 }],
+        "id": 323146
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/161941",
+    "icon_type": "G",
+    "longitude": -18.536403,
+    "access": 1,
+    "address": "Svarfa\u00f0arbraut 18\u201334, 620 Dalv\u00edk, \u00cdsland",
+    "latitude": 65.967045,
+    "id": 161941,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "B\u00edlah\u00fas Vesturg\u00f6tu",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 616639, "power": 0 }],
+        "id": 334077
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 616638, "power": 0 }],
+        "id": 334076
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 616637, "power": 0 }],
+        "id": 334075
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 616636, "power": 0 }],
+        "id": 334074
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/166099",
+    "icon_type": "G",
+    "longitude": -21.943044,
+    "access": 1,
+    "address": "Mj\u00f3str\u00e6ti 2B, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.148921,
+    "id": 166099,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "R\u00e1\u00f0h\u00fas Parking",
+    "stations": [
+      {
+        "outlets": [{ "connector": 10, "id": 660662, "power": 0 }],
+        "id": 368408
+      },
+      {
+        "outlets": [{ "connector": 10, "id": 660661, "power": 0 }],
+        "id": 368407
+      },
+      {
+        "outlets": [{ "connector": 10, "id": 660660, "power": 0 }],
+        "id": 368406
+      },
+      {
+        "outlets": [{ "connector": 10, "id": 528030, "power": 0 }],
+        "id": 262264
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/140038",
+    "icon_type": "G",
+    "longitude": -21.943098,
+    "access": 1,
+    "address": "Tjarnargata 33, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.146006,
+    "id": 140038,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Amtmannsst\u00edgur",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 651443, "power": 0 },
+          { "connector": 7, "id": 651442, "power": 0 }
+        ],
+        "id": 361465
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 651441, "power": 0 },
+          { "connector": 7, "id": 651440, "power": 0 }
+        ],
+        "id": 361464
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/176229",
+    "icon_type": "G",
+    "longitude": -21.937214,
+    "access": 1,
+    "address": "Amtmannsst\u00edgur 1, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.146427,
+    "id": 176229,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "HR",
+    "stations": [
+      {
+        "outlets": [{ "connector": 2, "id": 673098, "power": 0 }],
+        "id": 378040
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/182604",
+    "icon_type": "G",
+    "longitude": -21.927102,
+    "access": 1,
+    "address": "Nauth\u00f3ll - HR, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.124865,
+    "id": 182604,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Geirsgata",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 651449, "power": 0 },
+          { "connector": 7, "id": 651448, "power": 0 }
+        ],
+        "id": 361468
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 651447, "power": 0 },
+          { "connector": 7, "id": 651446, "power": 0 }
+        ],
+        "id": 361467
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/176231",
+    "icon_type": "G",
+    "longitude": -21.940909,
+    "access": 1,
+    "address": "Geirsgata 11, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.15002,
+    "id": 176231,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Hilton Reykjavik Nordica",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 346119, "power": 0 },
+          { "connector": 7, "id": 271348, "power": 0 }
+        ],
+        "id": 72844
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/53738",
+    "icon_type": "G",
+    "longitude": -21.888794,
+    "access": 1,
+    "score": 3.1,
+    "address": "Su\u00f0urlandsbraut 2 108 Reykjavik, Iceland",
+    "latitude": 64.140091,
+    "id": 53738,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "L\u00fdsing hf.",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 460008, "power": 0 }],
+        "id": 106403
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/73213",
+    "icon_type": "G",
+    "longitude": -21.889339,
+    "access": 1,
+    "address": "\u00c1rm\u00fali 1, 105 Reykjav\u00edk, Iceland",
+    "latitude": 64.137597,
+    "id": 73213,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Kringlan St\u00f3ri Turn",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 408580, "power": 0 }],
+        "id": 183149
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408581, "power": 0 }],
+        "id": 183150
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/109017",
+    "icon_type": "G",
+    "longitude": -21.895746,
+    "access": 1,
+    "address": "Kringlan, 103\u200e Reykjav\u00edk, Iceland",
+    "latitude": 64.130294,
+    "id": 109017,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "H\u00f6f\u00f0atorg B\u00edlakjallari",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 511961, "power": 0 }],
+        "id": 250305
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511962, "power": 0 }],
+        "id": 250306
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511963, "power": 0 }],
+        "id": 250307
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511964, "power": 0 }],
+        "id": 250308
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511965, "power": 0 }],
+        "id": 250309
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511966, "power": 0 }],
+        "id": 250310
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511967, "power": 0 }],
+        "id": 250311
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511968, "power": 0 }],
+        "id": 250312
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511969, "power": 0 }],
+        "id": 250313
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 511970, "power": 0 }],
+        "id": 250314
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/135614",
+    "icon_type": "G",
+    "longitude": -21.907415,
+    "access": 1,
+    "address": "Katr\u00ednart\u00fan 2, Austurb\u00e6r Reykjav\u00edk, \u00cdsland",
+    "latitude": 64.144813,
+    "id": 135614,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "P H\u00fas L\u00e6knavaktin",
+    "stations": [
+      {
+        "outlets": [{ "connector": 10, "id": 471975, "power": 0 }],
+        "id": 222465
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/124813",
+    "icon_type": "G",
+    "longitude": -21.878825,
+    "access": 1,
+    "address": "Sm\u00e1ratorg",
+    "latitude": 64.104018,
+    "id": 124813,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00c1svallalaug",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 500918, "power": 0 }],
+        "id": 242854
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/132816",
+    "icon_type": "G",
+    "longitude": -21.97498,
+    "access": 1,
+    "address": "\u00c1svellir 2",
+    "latitude": 64.052353,
+    "id": 132816,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Kirkjutorg",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 651451, "power": 0 },
+          { "connector": 7, "id": 651450, "power": 0 }
+        ],
+        "id": 361469
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 651445, "power": 0 },
+          { "connector": 7, "id": 651444, "power": 0 }
+        ],
+        "id": 361466
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/176230",
+    "icon_type": "G",
+    "longitude": -21.939756,
+    "access": 1,
+    "address": "Kirkjutorg 4\u20136a, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.146492,
+    "id": 176230,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Turninn K\u00f3pavogur",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 472469, "power": 0 }],
+        "id": 221902
+      },
+      {
+        "outlets": [
+          { "connector": 2, "id": 472462, "power": 0 },
+          { "connector": 2, "id": 533485, "power": 0 }
+        ],
+        "id": 221904
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472485, "power": 0 }],
+        "id": 97487
+      },
+      {
+        "outlets": [
+          { "connector": 2, "id": 472482, "power": 0 },
+          { "connector": 2, "id": 533484, "power": 0 }
+        ],
+        "id": 221899
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 472478, "power": 0 }],
+        "id": 221900
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 472474, "power": 0 }],
+        "id": 221901
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472465, "power": 0 }],
+        "id": 221903
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 472453, "power": 0 }],
+        "id": 221906
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/67538",
+    "icon_type": "G",
+    "longitude": -21.879869,
+    "access": 1,
+    "score": 9.0,
+    "address": "Sm\u00e1ratorg 3 201 Reykjav\u00edk Iceland",
+    "latitude": 64.10246,
+    "id": 67538,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Kringlan Parking Garage North - 2 levels",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 252193, "power": 0 }],
+        "id": 95168
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408574, "power": 0 }],
+        "id": 183143
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408573, "power": 0 }],
+        "id": 183142
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408575, "power": 0 }],
+        "id": 183144
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408576, "power": 0 }],
+        "id": 183145
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408577, "power": 0 }],
+        "id": 183146
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408578, "power": 0 }],
+        "id": 183147
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 408579, "power": 0 }],
+        "id": 183148
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/67547",
+    "icon_type": "G",
+    "longitude": -21.894447,
+    "access": 1,
+    "score": 9.0,
+    "address": "Kringlan 3 103 Reykjav\u00edk Iceland",
+    "latitude": 64.131519,
+    "id": 67547,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Bergsta\u00f0ir",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 658218, "power": 0 },
+          { "connector": 7, "id": 658217, "power": 0 }
+        ],
+        "id": 366576
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 658216, "power": 0 },
+          { "connector": 7, "id": 658215, "power": 0 }
+        ],
+        "id": 366575
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/178351",
+    "icon_type": "G",
+    "longitude": -21.932626,
+    "access": 1,
+    "address": "Bergsta\u00f0astr\u00e6ti 6, 101 Reykjav\u00edk, Iceland",
+    "latitude": 64.14546,
+    "id": 178351,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Volkswagen Iceland",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 346117, "power": 0 }],
+        "id": 142230
+      },
+      { "outlets": [{ "connector": 7, "id": 235071, "power": 0 }], "id": 97252 }
+    ],
+    "url": "http://api.plugshare.com/view/location/68871",
+    "icon_type": "G",
+    "longitude": -21.901862,
+    "access": 1,
+    "address": "Laugavegur 172, 105 Reykjav\u00edk",
+    "latitude": 64.141641,
+    "id": 68871,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Audi Iceland",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 235057, "power": 0 }],
+        "id": 97395
+      },
+      { "outlets": [{ "connector": 7, "id": 235058, "power": 0 }], "id": 97396 }
+    ],
+    "url": "http://api.plugshare.com/view/location/68870",
+    "icon_type": "G",
+    "longitude": -21.90043,
+    "access": 1,
+    "address": "Laugavegur 174, 105 Reykjav\u00edk",
+    "latitude": 64.141313,
+    "id": 68870,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Sk\u00f3garnes Apavatni",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 456372, "power": 0 },
+          { "connector": 7, "id": 456373, "power": 0 }
+        ],
+        "id": 214332
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121007",
+    "icon_type": "G",
+    "longitude": -20.657322,
+    "access": 1,
+    "address": "Sk\u00f3garnes",
+    "latitude": 64.184389,
+    "id": 121007,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "N\u00fdr Nor\u00f0urturn hf.",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 540331, "power": 0 }],
+        "id": 272367
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 540332, "power": 0 }],
+        "id": 272368
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 540333, "power": 0 }],
+        "id": 272369
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 540335, "power": 0 }],
+        "id": 272371
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 541654, "power": 0 }],
+        "id": 273469
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 541655, "power": 0 }],
+        "id": 273470
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 541658, "power": 0 }],
+        "id": 273473
+      },
+      {
+        "outlets": [{ "connector": 2, "id": 541656, "power": 0 }],
+        "id": 273471
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/122553",
+    "icon_type": "G",
+    "longitude": -21.88602,
+    "access": 1,
+    "address": "Hagasm\u00e1ri 3",
+    "latitude": 64.101782,
+    "id": 122553,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Akureyri town hall",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 463812, "power": 0 },
+          { "connector": 7, "id": 463813, "power": 0 }
+        ],
+        "id": 218916
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/123370",
+    "icon_type": "G",
+    "longitude": -18.092182,
+    "access": 1,
+    "address": "Gr\u00e1nuf\u00e9lagsgata 4\u20137, 600\u200e Akureyri, Iceland",
+    "latitude": 65.684658,
+    "id": 123370,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Fj\u00f6r\u00f0ur, B\u00edlageymsla",
+    "stations": [
+      {
+        "outlets": [{ "connector": 10, "id": 513064, "power": 0 }],
+        "id": 251080
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/135933",
+    "icon_type": "G",
+    "longitude": -21.956789,
+    "access": 1,
+    "address": "Fjardargata 13-15",
+    "latitude": 64.06765,
+    "id": 135933,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "IKEA chargers",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 7, "id": 482711, "power": 0 },
+          { "connector": 2, "id": 482712, "power": 0 }
+        ],
+        "id": 200376
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482713, "power": 0 },
+          { "connector": 2, "id": 482714, "power": 0 }
+        ],
+        "id": 200377
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482715, "power": 0 },
+          { "connector": 2, "id": 482716, "power": 0 }
+        ],
+        "id": 200378
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482717, "power": 0 },
+          { "connector": 2, "id": 482718, "power": 0 }
+        ],
+        "id": 200379
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482719, "power": 0 },
+          { "connector": 2, "id": 482720, "power": 0 }
+        ],
+        "id": 200380
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482721, "power": 0 },
+          { "connector": 2, "id": 482722, "power": 0 }
+        ],
+        "id": 200381
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482709, "power": 0 },
+          { "connector": 2, "id": 482710, "power": 0 }
+        ],
+        "id": 230202
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482695, "power": 0 },
+          { "connector": 2, "id": 482696, "power": 0 }
+        ],
+        "id": 230209
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482707, "power": 0 },
+          { "connector": 2, "id": 482708, "power": 0 }
+        ],
+        "id": 230203
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482705, "power": 0 },
+          { "connector": 2, "id": 482706, "power": 0 }
+        ],
+        "id": 230204
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482687, "power": 0 },
+          { "connector": 2, "id": 482688, "power": 0 }
+        ],
+        "id": 230213
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482681, "power": 0 },
+          { "connector": 2, "id": 482682, "power": 0 }
+        ],
+        "id": 230216
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482703, "power": 0 },
+          { "connector": 2, "id": 482704, "power": 0 }
+        ],
+        "id": 230205
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482701, "power": 0 },
+          { "connector": 2, "id": 482702, "power": 0 }
+        ],
+        "id": 230206
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482685, "power": 0 },
+          { "connector": 2, "id": 482686, "power": 0 }
+        ],
+        "id": 230214
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482699, "power": 0 },
+          { "connector": 2, "id": 482700, "power": 0 }
+        ],
+        "id": 230207
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482697, "power": 0 },
+          { "connector": 2, "id": 482698, "power": 0 }
+        ],
+        "id": 230208
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482693, "power": 0 },
+          { "connector": 2, "id": 482694, "power": 0 }
+        ],
+        "id": 230210
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482691, "power": 0 },
+          { "connector": 2, "id": 482692, "power": 0 }
+        ],
+        "id": 230211
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482689, "power": 0 },
+          { "connector": 2, "id": 482690, "power": 0 }
+        ],
+        "id": 230212
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482683, "power": 0 },
+          { "connector": 2, "id": 482684, "power": 0 }
+        ],
+        "id": 230215
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482679, "power": 0 },
+          { "connector": 2, "id": 482680, "power": 0 }
+        ],
+        "id": 230217
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482677, "power": 0 },
+          { "connector": 2, "id": 482678, "power": 0 }
+        ],
+        "id": 230218
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482675, "power": 0 },
+          { "connector": 2, "id": 482676, "power": 0 }
+        ],
+        "id": 230219
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482671, "power": 0 },
+          { "connector": 2, "id": 482672, "power": 0 }
+        ],
+        "id": 230221
+      },
+      {
+        "outlets": [
+          { "connector": 7, "id": 482673, "power": 0 },
+          { "connector": 2, "id": 482674, "power": 0 }
+        ],
+        "id": 230220
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/115095",
+    "icon_type": "G",
+    "longitude": -21.917288,
+    "access": 1,
+    "score": 6.9,
+    "address": "Kaupt\u00fan, 210\u200e Gar\u00f0ab\u00e6r, Iceland",
+    "latitude": 64.073723,
+    "id": 115095,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Kringlan, millih\u00e6\u00f0ar b\u00edlast\u00e6\u00f0i",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 472417, "power": 0 }],
+        "id": 224439
+      },
+      {
+        "outlets": [{ "connector": 15, "id": 472418, "power": 0 }],
+        "id": 224440
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/125549",
+    "icon_type": "G",
+    "longitude": -21.895039,
+    "access": 1,
+    "address": "Kringlan 2",
+    "latitude": 64.131769,
+    "id": 125549,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "ON Hla\u00f0a - Borgarnes",
+    "stations": [
+      {
+        "outlets": [
+          { "connector": 13, "id": 595833, "power": 0 },
+          { "connector": 7, "id": 595834, "power": 0 },
+          { "connector": 3, "id": 546225, "power": 0 }
+        ],
+        "id": 277246
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/145250",
+    "icon_type": "Y",
+    "longitude": -21.909614,
+    "access": 1,
+    "address": "Vesturlandsvegur, 310 Borgarnes, \u00cdsland",
+    "latitude": 64.54418,
+    "id": 145250,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "H\u00f6f\u00f0i",
+    "stations": [
+      {
+        "network_id": 13,
+        "outlets": [{ "connector": 7, "id": 601364, "power": 0 }],
+        "id": 321744
+      },
+      {
+        "network_id": 13,
+        "outlets": [{ "connector": 7, "id": 601365, "power": 0 }],
+        "id": 321745
+      },
+      {
+        "network_id": 13,
+        "outlets": [{ "connector": 7, "id": 601366, "power": 0 }],
+        "id": 321746
+      },
+      {
+        "network_id": 13,
+        "outlets": [{ "connector": 7, "id": 601367, "power": 0 }],
+        "id": 321747
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/161428",
+    "icon_type": "G",
+    "longitude": -21.90537,
+    "access": 1,
+    "score": 9.0,
+    "address": "Fj\u00f6rut\u00fan, Reykjav\u00edk, Iceland",
+    "latitude": 64.145736,
+    "id": 161428,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Orkusalan Stoppustu\u00f0 Vestmannaeyjab\u00e6r",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 473097, "power": 0 }],
+        "id": 193626
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/113133",
+    "icon_type": "G",
+    "longitude": -20.268446,
+    "access": 1,
+    "address": "Vestmannabraut 28\u201330, 900\u200e Vestmannaeyjar, Iceland",
+    "latitude": 63.440387,
+    "id": 113133,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "\u00cdsorka - Fir\u00f0inum",
+    "stations": [
+      {
+        "outlets": [{ "connector": 13, "id": 666343, "power": 0 }],
+        "id": 372815
+      },
+      {
+        "outlets": [{ "connector": 3, "id": 666342, "power": 0 }],
+        "id": 372814
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 666341, "power": 0 }],
+        "id": 372813
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/180672",
+    "icon_type": "Y",
+    "longitude": -21.957372,
+    "access": 1,
+    "address": "Fj\u00f6r\u00f0ur, Hafnarfir\u00f0i",
+    "latitude": 64.067867,
+    "id": 180672,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/Y.png"
+  },
+  {
+    "name": "B\u00edlahle\u00f0slan",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 666382, "power": 0 }],
+        "id": 372846
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/180682",
+    "icon_type": "G",
+    "longitude": -21.880439,
+    "access": 1,
+    "address": "Akralind 9, K\u00f3pavogur, \u00cdsland",
+    "latitude": 64.095581,
+    "id": 180682,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "Stoppustu\u00f0 Sunnum\u00f6rk",
+    "stations": [
+      {
+        "outlets": [{ "connector": 7, "id": 456274, "power": 0 }],
+        "id": 214282
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/121520",
+    "icon_type": "G",
+    "longitude": -21.189184,
+    "access": 1,
+    "score": 9.0,
+    "address": "M\u00e1nam\u00f6rk, Hverager\u00f0i",
+    "latitude": 63.995498,
+    "id": 121520,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  },
+  {
+    "name": "H\u00f6f\u00f0i",
+    "stations": [
+      {
+        "network_id": 13,
+        "outlets": [{ "connector": 7, "id": 601380, "power": 0 }],
+        "id": 321757
+      },
+      {
+        "network_id": 13,
+        "outlets": [{ "connector": 7, "id": 601381, "power": 0 }],
+        "id": 321758
+      },
+      {
+        "network_id": 13,
+        "outlets": [{ "connector": 7, "id": 601382, "power": 0 }],
+        "id": 321759
+      },
+      {
+        "outlets": [{ "connector": 7, "id": 601383, "power": 0 }],
+        "id": 321760
+      }
+    ],
+    "url": "http://api.plugshare.com/view/location/161434",
+    "icon_type": "G",
+    "longitude": -21.90537,
+    "access": 1,
+    "score": 9.0,
+    "address": "Fj\u00f6rut\u00fan, Reykjav\u00edk, Iceland",
+    "latitude": 64.145736,
+    "id": 161434,
+    "icon": "https://s3.amazonaws.com/plugshare.production.assets/icons/G.png"
+  }
+]

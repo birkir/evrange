@@ -1,3 +1,4 @@
+import poi from '../data/poi.json';
 import { cardinalDirection } from '../math/cardinalDirection';
 import { Consumption } from '../models/Consumption';
 import { geoPointDistance } from './geoPointDistance';
@@ -11,6 +12,8 @@ export const getConsumption = ({ route, weather, when, config }: any) => {
   const speedsterPow = 1 + (config.speed * 0.02 - 1) * 0.1;
 
   let totalBatteryCapacity = config.car.configuration.batteryCapacity || 0;
+
+  config.minCharge = config.car.configuration.batteryCapacity * 0.1;
 
   steps.forEach((step: any) => {
     // find closest weather
@@ -96,6 +99,39 @@ export const getConsumption = ({ route, weather, when, config }: any) => {
     });
   });
 
+  // Find only POI that make sense
+  const leg = route.direction.routes[0].legs[0];
+  const sorted = poi
+    .map(n => ({
+      ...n,
+      dist: geoPointDistance(
+        [leg.start_location.lat(), leg.start_location.lng()],
+        [n.latitude, n.longitude]
+      ),
+    }))
+    .filter(n => n.dist < totalDistance);
+
+  // Foreach POI
+  const pois = sorted
+    .map(p => {
+      const l = result
+        .map(x => ({
+          ...x,
+          dist: geoPointDistance(
+            [x.point[0].lat(), x.point[0].lng()],
+            [p.latitude, p.longitude]
+          ),
+        }))
+        .sort((x, y) => x.dist - y.dist)[0];
+      return { ...p, l };
+    })
+    .filter(
+      a =>
+        a.l.battery > config.car.configuration.batteryCapacity * 0.1 &&
+        a.l.dist < 2000
+    )
+    .sort((a, b) => a.l.battery - b.l.battery);
+
   const aggregateKeys = [
     'averageConsumption',
     'totalConsumption',
@@ -121,5 +157,5 @@ export const getConsumption = ({ route, weather, when, config }: any) => {
     return acc;
   }, {});
 
-  return { aggregated, steps: result };
+  return { aggregated, steps: result, pois };
 };

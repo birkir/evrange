@@ -72,7 +72,13 @@ export const EstimateDetails = ({
               onChange={onCarChange}
             >
               {value => (
-                <Box direction="row" align="center" pad="small" flex={false}>
+                <Box
+                  direction="row"
+                  align="center"
+                  pad="small"
+                  flex={false}
+                  style={{ zIndex: 100 }}
+                >
                   {value.name}
                 </Box>
               )}
