@@ -24,6 +24,54 @@
     }
   },
   {
+    "id": "nissan-leaf-2011-2016",
+    "name": "Nissan Leaf 24kW (2011-2016)",
+    "make": "Nissan",
+    "configuration": {
+      "massOfCarInKg": 1520,
+      "batteryCapacity": 24000,
+      "dragCoefficient": 0.29,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.27
+    }
+  },
+  {
+    "id": "nissan-leaf-2016",
+    "name": "Nissan Leaf 30kW (2016)",
+    "make": "Nissan",
+    "configuration": {
+      "massOfCarInKg": 1538,
+      "batteryCapacity": 30000,
+      "dragCoefficient": 0.29,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.27
+    }
+  },
+  {
+    "id": "nissan-leaf-2017",
+    "name": "Nissan Leaf 40kW (2017+)",
+    "make": "Nissan",
+    "configuration": {
+      "massOfCarInKg": 1580,
+      "batteryCapacity": 40000,
+      "dragCoefficient": 0.28,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.25
+    }
+  },
+  {
+    "id": "nissan-e-nv200-2019",
+    "name": "Nissan e-NV200",
+    "make": "Nissan",
+    "configuration": {
+      "massOfCarInKg": 1476,
+      "batteryCapacity": 40000,
+      "dragCoefficient": 0.31,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 3.0
+    }
+  },
+  {
     "id": "tesla-model-3-lrrwd",
     "name": "Tesla Model 3 (Long-Range RWD)",
     "make": "Tesla",
@@ -48,15 +96,75 @@
     }
   },
   {
-    "id": "bmw-i3s-2019",
-    "name": "BMW i3s (2019)",
+    "id": "bmw-i3-18kw",
+    "name": "BMW i3 18.8kW",
     "make": "BMW",
     "configuration": {
-      "massOfCarInKg": 1290,
-      "batteryCapacity": 42200,
+      "massOfCarInKg": 1190,
+      "batteryCapacity": 18800,
       "dragCoefficient": 0.3,
       "rollingCoefficient": 0.0125,
       "dragReferenceAreaInSquareMeters": 2.38
+    }
+  },
+  {
+    "id": "bmw-i3-27kw",
+    "name": "BMW i3 27.7kW",
+    "make": "BMW",
+    "configuration": {
+      "massOfCarInKg": 1343,
+      "batteryCapacity": 27700,
+      "dragCoefficient": 0.3,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.38
+    }
+  },
+  {
+    "id": "jaguar-ipace-2019",
+    "name": "Jaguar I-Pace",
+    "make": "Jaguar",
+    "configuration": {
+      "massOfCarInKg": 2133,
+      "batteryCapacity": 90000,
+      "dragCoefficient": 0.29,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.89
+    }
+  },
+  {
+    "id": "vw-egolf",
+    "name": "VW e-Golf",
+    "make": "VW",
+    "configuration": {
+      "massOfCarInKg": 1540,
+      "batteryCapacity": 32000,
+      "dragCoefficient": 0.27,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.31
+    }
+  },
+  {
+    "id": "kia-soul-2016",
+    "name": "Kia Soul EV (2016-2017)",
+    "make": "Kia",
+    "configuration": {
+      "massOfCarInKg": 1492,
+      "batteryCapacity": 27000,
+      "dragCoefficient": 0.35,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.49
+    }
+  },
+  {
+    "id": "kia-soul-2016",
+    "name": "Kia Soul EV (2018-2019)",
+    "make": "Kia",
+    "configuration": {
+      "massOfCarInKg": 1492,
+      "batteryCapacity": 30000,
+      "dragCoefficient": 0.35,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.49
     }
   }
 ]
