@@ -1,3 +1,4 @@
+import 'map-icons/dist/css/map-icons.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app/App';

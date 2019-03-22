@@ -101,15 +101,13 @@ export const getConsumption = ({ route, weather, when, config }: any) => {
 
   // Find only POI that make sense
   const leg = route.direction.routes[0].legs[0];
-  const sorted = poi
-    .map(n => ({
-      ...n,
-      dist: geoPointDistance(
-        [leg.start_location.lat(), leg.start_location.lng()],
-        [n.latitude, n.longitude]
-      ),
-    }))
-    .filter(n => n.dist < totalDistance);
+  const sorted = poi.map(n => ({
+    ...n,
+    dist: geoPointDistance(
+      [leg.start_location.lat(), leg.start_location.lng()],
+      [n.latitude, n.longitude]
+    ),
+  }));
 
   // Foreach POI
   const pois = sorted
@@ -125,12 +123,28 @@ export const getConsumption = ({ route, weather, when, config }: any) => {
         .sort((x, y) => x.dist - y.dist)[0];
       return { ...p, l };
     })
-    .filter(
-      a =>
-        a.l.battery > config.car.configuration.batteryCapacity * 0.1 &&
-        a.l.dist < 2000
-    )
-    .sort((a, b) => a.l.battery - b.l.battery);
+    .filter(a => a.l.dist < 2000)
+    .sort((a, b) => b.l.battery - a.l.battery);
+
+  let adder = 0;
+  const selectedStations: any = [];
+  pois.forEach((p, index, arr) => {
+    const pp = arr[index + 1];
+    if (
+      pp &&
+      pp.l.battery + adder < config.car.configuration.batteryCapacity * 0.1
+    ) {
+      selectedStations.push(p);
+      (p as any).selected = true;
+      (p as any).realBattery = p.l.battery + adder;
+      (p as any).minCharge = p.l.battery - pp.l.battery;
+      adder +=
+        Math.max(
+          (p as any).minCharge,
+          config.car.configuration.batteryCapacity * 0.8
+        ) - p.l.battery;
+    }
+  });
 
   const aggregateKeys = [
     'averageConsumption',

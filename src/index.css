@@ -31,3 +31,24 @@ code {
 .mui-datepicker:after {
   display: none !important;
 }
+
+.chargepoint:after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50% 50% 50% 0;
+  background: white;
+  /* position: absolute; */
+  transform: rotate(-45deg);
+  margin: -10px 0 0 -10px;
+  z-index: 2;
+  box-shadow: 1px 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.chargepoint > span {
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: -5px;
+}

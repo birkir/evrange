@@ -14,6 +14,7 @@
     "leaflet": "1.4.0",
     "load-google-maps-api": "1.3.2",
     "lodash": "4.17.11",
+    "map-icons": "^3.0.3",
     "material-ui-pickers": "2.2.4",
     "mobx": "5.9.0",
     "mobx-react": "5.4.3",
