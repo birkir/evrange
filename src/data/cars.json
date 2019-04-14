@@ -166,5 +166,17 @@
       "rollingCoefficient": 0.0125,
       "dragReferenceAreaInSquareMeters": 2.49
     }
+  },
+  {
+    "id": "audi-etron-55",
+    "name": "Audi 55 quattro e-tron",
+    "make": "Audi",
+    "configuration": {
+      "massOfCarInKg": 2490,
+      "batteryCapacity": 95000,
+      "dragCoefficient": 0.28,
+      "rollingCoefficient": 0.015,
+      "dragReferenceAreaInSquareMeters": 2.66
+    }
   }
 ]
