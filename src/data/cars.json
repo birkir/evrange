@@ -12,13 +12,25 @@
     }
   },
   {
-    "id": "hyundai-ioniq",
-    "name": "Hyundai IONIQ",
+    "id": "hyundai-kona-ev",
+    "name": "Hyundai Kona EV",
     "make": "Hyundai",
     "configuration": {
-      "massOfCarInKg": 1420,
-      "batteryCapacity": 28000,
-      "dragCoefficient": 0.24,
+      "massOfCarInKg": 1748,
+      "batteryCapacity": 64000,
+      "dragCoefficient": 0.29,
+      "rollingCoefficient": 0.0125,
+      "dragReferenceAreaInSquareMeters": 2.511
+    }
+  },
+  {
+    "id": "kia-ev6",
+    "name": "Kia EV6",
+    "make": "Kia",
+    "configuration": {
+      "massOfCarInKg": 2105,
+      "batteryCapacity": 77400,
+      "dragCoefficient": 0.28,
       "rollingCoefficient": 0.0125,
       "dragReferenceAreaInSquareMeters": 2.629
     }
