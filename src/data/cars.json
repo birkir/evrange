@@ -12,15 +12,15 @@
     }
   },
   {
-    "id": "hyundai-kona-ev",
-    "name": "Hyundai Kona EV",
+    "id": "hyundai-ioniq-5",
+    "name": "Hyundai IONIQ 5",
     "make": "Hyundai",
     "configuration": {
-      "massOfCarInKg": 1748,
-      "batteryCapacity": 64000,
-      "dragCoefficient": 0.29,
+      "massOfCarInKg": 2095,
+      "batteryCapacity": 72600,
+      "dragCoefficient": 0.288,
       "rollingCoefficient": 0.0125,
-      "dragReferenceAreaInSquareMeters": 2.511
+      "dragReferenceAreaInSquareMeters": 2.575
     }
   },
   {
