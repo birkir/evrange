@@ -13,7 +13,7 @@
     "highcharts-react-official": "2.1.1",
     "leaflet": "1.4.0",
     "load-google-maps-api": "1.3.2",
-    "lodash": "4.17.11",
+    "lodash": "4.17.21",
     "map-icons": "^3.0.3",
     "material-ui-pickers": "2.2.4",
     "mobx": "5.9.0",
